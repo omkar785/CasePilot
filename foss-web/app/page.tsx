@@ -27,7 +27,7 @@ const LandingPage = () => {
             </div>
 
             <div className="space-y-4 flex flex-col items-center">
-              <p className="text-[#634419]/70 text-sm uppercase tracking-wider font-medium">
+              <p className="text-[#634419]/70 text-sm tracking-wider font-medium">
                 join us now as
               </p>
               <div className="flex gap-4 justify-center">
@@ -90,8 +90,8 @@ const LandingPage = () => {
           </div>
 
           <div className="relative hidden lg:block">
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#E8E1DB]/10" />
-            <div className="relative overflow-hidden rounded-2xl shadow-2xl translate-x-12">
+            <div className="absolute inset-0 " />
+            <div className="relative overflow-hidden rounded-2xl  translate-x-12">
               <img
                 src="./tingey-injury-law-firm-L4YGuSg0fxs-unsplash-Photoroom.png"
                 alt="Lady Justice Statue"
@@ -99,7 +99,8 @@ const LandingPage = () => {
                   "w-full h-auto max-w-2xl ml-auto",
                   "object-contain transform",
                   "transition-transform duration-700 ease-out",
-                  "hover:scale-105"
+                  "hover:scale-105",
+                  "shadow-2xl",
                 )}
               />
             </div>
