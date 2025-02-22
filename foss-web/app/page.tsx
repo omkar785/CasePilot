@@ -3,33 +3,21 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { cn } from '@/lib/utils';
+
 
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-[#E8E1DB] relative overflow-hidden font-serif">
-      {/* Gradient overlays for depth */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#E8E1DB]/20" />
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#E8E1DB]/10 to-transparent" />
-
-      <div className="container mx-auto px-6 py-8">
-        {/* Header/Logo */}
-        <Card className="bg-transparent border-none shadow-none">
-          <CardContent className="p-0">
-            <h1 className="text-[#634419] text-3xl tracking-wide">CasePilot</h1>
-          </CardContent>
-        </Card>
-
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-24 items-center">
-          {/* Left Column - Text Content */}
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center min-h-screen">
           <div className="space-y-12">
-            {/* Main Headings */}
             <div className="space-y-6">
-              <h2 className="text-[#634419] text-5xl lg:text-6xl leading-tight">
-                Your Case.
-                <br />
-                Our Network.
-                <br />
+              <h2 className="text-[#634419] text-5xl lg:text-6xl leading-tight font-medium">
+                Your Case. <br />
+                Our Network. <br />
                 Effortless Law.
               </h2>
               <p className="text-[#634419]/80 text-lg max-w-lg leading-relaxed">
@@ -38,57 +26,83 @@ const LandingPage = () => {
               </p>
             </div>
 
-            {/* Call to Action Section */}
-            <div className="space-y-6">
-              <p className="text-[#634419]/70 text-sm uppercase tracking-wider">
+            <div className="space-y-4 flex flex-col items-center">
+              <p className="text-[#634419]/70 text-sm uppercase tracking-wider font-medium">
                 join us now as
               </p>
-              <div className="flex gap-4">
-                <Button 
-                  variant="default" 
-                  size="lg"
-                  className="bg-[#634419] hover:bg-[#3F372C] text-white px-8 py-6 rounded text-lg"
+              <div className="flex gap-4 justify-center">
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className={cn(
+                    "border-2 border-[#634419] text-[#634419] text-sm rounded-md",
+                    "transform transition-all duration-300 ease-out",
+                    "hover:bg-[#634419] hover:text-white hover:shadow-lg hover:-translate-y-0.5",
+                    "w-24 h-8"
+                  )}
                 >
                   Advocate
                 </Button>
-                <Button 
-                  variant="default" 
-                  size="lg"
-                  className="bg-[#634419] hover:bg-[#3F372C] text-white px-8 py-6 rounded text-lg"
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className={cn(
+                    "border-2 border-[#634419] text-[#634419] text-sm rounded-md",
+                    "transform transition-all duration-300 ease-out",
+                    "hover:bg-[#634419] hover:text-white hover:shadow-lg hover:-translate-y-0.5",
+                    "w-24 h-8"
+                  )}
                 >
                   Client
                 </Button>
               </div>
             </div>
 
-            {/* Social Links */}
-            <div className="pt-8">
+            <div className="pt-8 flex flex-col items-center">
               <Separator className="mb-8 bg-[#634419]/20" />
-              <div className="flex items-center gap-8">
-                <a href="#" className="hover:scale-110 transition-transform">
-                  <Twitter className="w-6 h-6 text-[#634419] hover:text-[#3F372C]" />
-                </a>
-                <a href="#" className="hover:scale-110 transition-transform">
-                  <Instagram className="w-6 h-6 text-[#634419] hover:text-[#3F372C]" />
-                </a>
-                <a href="#" className="hover:scale-110 transition-transform">
-                  <Youtube className="w-6 h-6 text-[#634419] hover:text-[#3F372C]" />
-                </a>
-                <a href="#" className="hover:scale-110 transition-transform">
-                  <Linkedin className="w-6 h-6 text-[#634419] hover:text-[#3F372C]" />
-                </a>
+              <div className="flex items-center justify-center gap-8">
+                {[
+                  { Icon: Twitter, href: "#twitter" },
+                  { Icon: Instagram, href: "#instagram" },
+                  { Icon: Youtube, href: "#youtube" },
+                  { Icon: Linkedin, href: "#linkedin" }
+                ].map(({ Icon, href }, index) => (
+                  <a
+                    key={index}
+                    href={href}
+                    className={cn(
+                      "group p-2 rounded-full",
+                      "transition-all duration-300",
+                      "hover:bg-[#634419]/10"
+                    )}
+                  >
+                    <Icon
+                      className={cn(
+                        "w-6 h-6 text-[#634419]",
+                        "transition-all duration-300",
+                        "group-hover:scale-110 group-hover:text-[#3F372C]"
+                      )}
+                    />
+                  </a>
+                ))}
               </div>
             </div>
           </div>
 
-          {/* Right Column - Statue Image */}
           <div className="relative hidden lg:block">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#E8E1DB]/10" />
-            <img
-              src="/api/placeholder/700/900"
-              alt="Lady Justice Statue"
-              className="w-full h-auto max-w-2xl ml-auto object-contain"
-            />
+            <div className="relative overflow-hidden rounded-2xl shadow-2xl translate-x-12">
+              <img
+                src="./tingey-injury-law-firm-L4YGuSg0fxs-unsplash-Photoroom.png"
+                alt="Lady Justice Statue"
+                className={cn(
+                  "w-full h-auto max-w-2xl ml-auto",
+                  "object-contain transform",
+                  "transition-transform duration-700 ease-out",
+                  "hover:scale-105"
+                )}
+              />
+            </div>
           </div>
         </div>
       </div>
