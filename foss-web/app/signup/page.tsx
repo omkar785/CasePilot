@@ -9,13 +9,40 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useRouter } from 'next/navigation';
-import type { Lawyer, Client } from '@/types/database';
+
+// Update types to include auth_id
+type Lawyer = {
+  lawyer_id: number;
+  auth_id: string;  // Add auth_id field
+  name: string;
+  email: string;
+  experience: number;
+  specialty: string;
+  location: string;
+  rating: number | null;
+  jurisdiction: string;
+  client_type: string;
+  hourly_rate: number;
+  avg_days_completion: number | null;
+  languages: string | null;
+};
+
+type Client = {
+  client_id: number;
+  auth_id: string;  // Add auth_id field
+  name: string;
+  email: string;
+  phone: string;
+  location: string;
+  budget: number | null;
+  languages: string | null;
+  preferred_contact_method: string;
+};
 
 const RegistrationPage = () => {
   const supabase = createClientComponentClient();
   const router = useRouter();
   
-  // Form state
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -26,12 +53,12 @@ const RegistrationPage = () => {
     experience: '',
     specialty: '',
     jurisdiction: '',
-    clientType: '',
-    hourlyRate: '',
+    client_type: '',
+    hourly_rate: '',
     // Client specific
     phone: '',
     budget: '',
-    preferredContact: '',
+    preferred_contact_method: ''
   });
 
   const [loading, setLoading] = useState(false);
@@ -48,8 +75,8 @@ const RegistrationPage = () => {
 
   const validateForm = (userType: 'lawyer' | 'client') => {
     const commonFields = ['email', 'password', 'name', 'location'];
-    const lawyerFields = ['experience', 'specialty', 'jurisdiction', 'clientType', 'hourlyRate'];
-    const clientFields = ['phone', 'preferredContact'];
+    const lawyerFields = ['experience', 'specialty', 'jurisdiction', 'client_type', 'hourly_rate'];
+    const clientFields = ['phone', 'preferred_contact_method'];
 
     const requiredFields = userType === 'lawyer' 
       ? [...commonFields, ...lawyerFields]
@@ -67,7 +94,6 @@ const RegistrationPage = () => {
       setLoading(true);
       setError('');
 
-      // Validate form
       validateForm(userType);
 
       // 1. Sign up with Supabase Auth
@@ -75,7 +101,7 @@ const RegistrationPage = () => {
         email: formData.email,
         password: formData.password,
         options: {
-          emailRedirectTo: `${window.location.origin}/${userType}-dashboard`,
+          emailRedirectTo: `${window.location.origin}/dashboard`, // Updated redirect URL
         }
       });
 
@@ -92,9 +118,9 @@ const RegistrationPage = () => {
             specialty: formData.specialty,
             location: formData.location,
             jurisdiction: formData.jurisdiction,
-            client_type: formData.clientType,
-            hourly_rate: parseFloat(formData.hourlyRate),
-            languages: formData.languages,
+            client_type: formData.client_type,
+            hourly_rate: parseFloat(formData.hourly_rate),
+            languages: formData.languages || null,
             rating: 0,
             avg_days_completion: 0
           } as Partial<Lawyer>
@@ -105,8 +131,8 @@ const RegistrationPage = () => {
             phone: formData.phone,
             location: formData.location,
             budget: formData.budget ? parseFloat(formData.budget) : null,
-            languages: formData.languages,
-            preferred_contact_method: formData.preferredContact
+            languages: formData.languages || null,
+            preferred_contact_method: formData.preferred_contact_method
           } as Partial<Client>;
 
       const { error: profileError } = await supabase
@@ -115,8 +141,8 @@ const RegistrationPage = () => {
 
       if (profileError) throw profileError;
 
-      // 3. Redirect to verification page
-      router.push('/auth/verify');
+      // Update redirect path to dashboard
+      router.push('/dashboard');
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -133,6 +159,14 @@ const RegistrationPage = () => {
     'Intellectual Property',
     'Immigration Law',
     'Tax Law'
+  ];
+
+  const clientTypes = [
+    'Individual',
+    'Corporate',
+    'Non-Profit',
+    'Government',
+    'Small Business'
   ];
 
   const contactMethods = ['Email', 'Phone', 'Text', 'WhatsApp'];
@@ -212,8 +246,43 @@ const RegistrationPage = () => {
                       ))}
                     </SelectContent>
                   </Select>
-                  {/* Add other lawyer-specific fields */}
-                  
+                  <Input
+                    name="jurisdiction"
+                    placeholder="Jurisdiction"
+                    value={formData.jurisdiction}
+                    onChange={handleInputChange}
+                    required
+                  />
+                  <Select 
+                    onValueChange={(value) => handleSelectChange('client_type', value)}
+                    required
+                  >
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select Client Type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {clientTypes.map((type) => (
+                        <SelectItem key={type} value={type}>
+                          {type}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <Input
+                    name="hourly_rate"
+                    type="number"
+                    placeholder="Hourly Rate"
+                    value={formData.hourly_rate}
+                    onChange={handleInputChange}
+                    required
+                  />
+                  <Input
+                    name="languages"
+                    placeholder="Languages (comma-separated)"
+                    value={formData.languages}
+                    onChange={handleInputChange}
+                  />
+
                   {error && (
                     <Alert variant="destructive">
                       <AlertDescription>{error}</AlertDescription>
@@ -265,8 +334,28 @@ const RegistrationPage = () => {
                     onChange={handleInputChange}
                     required
                   />
+                  <Input
+                    name="location"
+                    placeholder="Location"
+                    value={formData.location}
+                    onChange={handleInputChange}
+                    required
+                  />
+                  <Input
+                    name="budget"
+                    type="number"
+                    placeholder="Budget (optional)"
+                    value={formData.budget}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    name="languages"
+                    placeholder="Languages (comma-separated)"
+                    value={formData.languages}
+                    onChange={handleInputChange}
+                  />
                   <Select 
-                    onValueChange={(value) => handleSelectChange('preferredContact', value)}
+                    onValueChange={(value) => handleSelectChange('preferred_contact_method', value)}
                     required
                   >
                     <SelectTrigger>
@@ -280,7 +369,6 @@ const RegistrationPage = () => {
                       ))}
                     </SelectContent>
                   </Select>
-                  {/* Add other client-specific fields */}
 
                   {error && (
                     <Alert variant="destructive">
