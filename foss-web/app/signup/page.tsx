@@ -1,6 +1,6 @@
 "use client";
-
-import React, { useState } from 'react';
+import { cookies } from 'next/headers'
+import React, { useState, useEffect } from 'react';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
