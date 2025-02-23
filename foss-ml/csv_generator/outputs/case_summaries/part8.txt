@@ -1,0 +1,46 @@
+<think>
+Okay, I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Ram Pyarey v. The State of Uttar Pradesh, decided on 09 January 2025. It's a criminal case, specifically involving charges related to abetment of suicide and dowry death. The appellant, Ram Pyarey, is the brother-in-law of the deceased.
+
+Looking at the legal provisions, the case involves Sections 306 and 498A of the IPC, which deal with abetment of suicide and cruelty by a husband or his relatives, respectively. Additionally, Section 4 of the Dowry Prohibition Act, 1961, is relevant. The Evidence Act, 1872, particularly Section 113A, is also cited, which creates a presumption regarding abetment of suicide by a married woman.
+
+The parties involved are an individual (Ram Pyarey) and the State of Uttar Pradesh. The case was between a private individual and a government entity.
+
+The judgment acquitted Ram Pyarey of the charge under Section 304B IPC (dowry death) but convicted him under Sections 306 and 498A IPC. The reasoning was that while there was no cogent evidence of cruelty or harassment to invoke Section 113A of the Evidence Act, the appellant was found guilty based on other evidence.
+
+There's no mention of fines or compensation in the provided context, so I'll note that no financial penalties were imposed.
+
+Now, I'll structure this into the required sections: Case Type, Legal Provisions & Charges, Parties Involved, Judgment & Legal Reasoning, and Claims, Settlements & Fines.
+</think>
+
+**Case Type:**
+
+- **General Legal Domain:** Criminal
+- **Specific Case Category:** Criminal Offenses (Abetment of Suicide, Dowry Death)
+
+**Legal Provisions & Charges:**
+
+- **Relevant Legal Sections:**
+  - Indian Penal Code (IPC), Sections 306 (abetment of suicide), 498A (cruelty by husband or relatives), and 304B (dowry death).
+  - Dowry Prohibition Act, 1961, Section 4.
+  - Evidence Act, 1872, Section 113A (presumption regarding abetment of suicide by a married woman).
+
+**Parties Involved:**
+
+- **Appellant:** Ram Pyarey (Individual, Brother-in-law of the deceased)
+- **Respondent:** The State of Uttar Pradesh (Government)
+
+**Judgment & Legal Reasoning:**
+
+- **Court's Decision:**
+  - Acquitted of the charge under Section 304B IPC (dowry death).
+  - Convicted under Sections 306 and 498A IPC.
+
+- **Legal Reasoning:**
+  - The court emphasized the necessity of cogent evidence of cruelty or harassment to invoke Section 113A of the Evidence Act.
+  - Despite the absence of such evidence, the appellant was found guilty based on other available evidence.
+
+**Claims, Settlements & Fines:**
+
+- **No Financial Penalties Mentioned:** The judgment did not specify any fines or compensation.

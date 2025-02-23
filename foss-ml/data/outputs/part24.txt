@@ -1,0 +1,40 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Serosoft Solutions Pvt. Ltd. v. Dexter Capital Advisors Pvt. Ltd., decided in 2025 by the Supreme Court of India. The case revolves around an arbitration proceeding where the respondent sought an opportunity to cross-examine a witness, which the Arbitral Tribunal initially denied. The High Court then intervened under Article 227, allowing the cross-examination, and the appellant challenged this decision.
+
+First, I'll determine the case type. The dispute is about an arbitration proceeding, so the general legal domain is Corporate. The specific category is a Breach of Contract since it's about services not being paid for.
+
+Next, the legal provisions involved. The Arbitration and Conciliation Act, 1996, particularly Sections 18, 29, and 34, are relevant. Article 227 of the Indian Constitution is also cited because it's about the High Court's supervisory jurisdiction.
+
+The parties involved are both private entities: Serosoft Solutions Pvt. Ltd. and Dexter Capital Advisors Pvt. Ltd. They are likely small to medium-sized businesses given the context of a startup and advisory services.
+
+The judgment by the Supreme Court upheld the High Court's decision, allowing the cross-examination. The reasoning was based on the Arbitral Tribunal's duty to ensure equality and fairness, as per Section 18, and the High Court's limited supervisory role under Article 227.
+
+There's no mention of fines or compensation in the provided context, so the claims and settlements section remains empty.
+
+Putting it all together, I'll structure the summary accordingly, ensuring each section is concise and accurate based on the context provided.
+</think>
+
+**Case Summary: Serosoft Solutions Pvt. Ltd. v. Dexter Capital Advisors Pvt. Ltd.**
+
+**Case Type:**
+- **General Legal Domain:** Corporate
+- **Specific Case Category:** Breach of Contract
+
+**Legal Provisions & Charges:**
+- **Relevant Statutes:** Arbitration and Conciliation Act, 1996 (Sections 18, 29, 34)
+- **Constitutional Provision:** Article 227 of the Indian Constitution
+
+**Parties Involved:**
+- **Appellant:** Serosoft Solutions Pvt. Ltd. (Private Entity, likely a startup)
+- **Respondent:** Dexter Capital Advisors Pvt. Ltd. (Private Entity, advisory services provider)
+
+**Judgment & Legal Reasoning:**
+- **Court Decision:** The Supreme Court upheld the High Court's order, allowing the respondent to cross-examine the appellant's witness.
+- **Legal Reasoning:** The court emphasized the Arbitral Tribunal's duty to ensure equality and fairness under Section 18 of the Arbitration Act. The High Court's intervention was deemed appropriate under exceptional circumstances, aligning with the supervisory jurisdiction under Article 227.
+
+**Claims, Settlements & Fines:**
+- **No Financial Details Mentioned:** The case does not involve fines, compensation, or settlements as the focus was on procedural fairness in arbitration.
+
+This summary encapsulates the key aspects of the case, highlighting the procedural fairness in arbitration and the role of judicial intervention.

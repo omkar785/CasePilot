@@ -1,0 +1,37 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. It's a court case involving employees of a public sector undertaking, specifically TSRTC and APSRTC. The issue revolves around where these employees should be allocated after a bifurcation. The High Court ruled in a certain way, but the Supreme Court overturned that decision, citing specific sections of the Act.
+
+First, I need to determine the case type. The issue is about employment allocation, so it falls under Labor. The specific category would be Workplace Allocation Disputes since it's about where employees are assigned.
+
+Next, the legal provisions involved. The context mentions Section 77 and Section 82 of the Act. The High Court relied on Section 77, but the Supreme Court ruled that Section 82 applies to public sector employees, not state government employees.
+
+Parties involved: The respondents are employees, so they're individuals. The appellants are TSRTC and APSRTC, which are public sector corporations. So, the case is between a public institution (corporation) and individuals.
+
+Judgment & Legal Reasoning: The Supreme Court dismissed the writ petitions, upholding the allocation under Section 82. They found the High Court's reliance on Section 77 incorrect because it applies to state government employees, not public sector ones.
+
+Claims, Settlements & Fines: There's no mention of fines or compensation, so that section is N/A.
+
+Putting it all together, I need to structure this into the specified format, making sure each section is concise and accurate based on the context provided.
+</think>
+
+**Case Summary**
+
+**Case Type:**  
+Labor - Workplace Allocation Disputes
+
+**Legal Provisions & Charges:**  
+- Section 77 of the Act (incorrectly applied by the High Court)  
+- Section 82 of the Act (correctly applied by the Supreme Court for public sector employees)
+
+**Parties Involved:**  
+- **Respondents:** Individual employees (Class III and Class IV)  
+- **Appellants:** TSRTC and APSRTC (public sector corporations)
+
+**Judgment & Legal Reasoning:**  
+- **Decision:** Writ petitions dismissed; allocation under Section 82 upheld.  
+- **Reasoning:** The Supreme Court ruled that Section 82 governs public sector employees, while Section 77 applies to state government employees. The High Court's analogy was deemed inapplicable.
+
+**Claims, Settlements & Fines:**  
+- No fines or compensation awarded.
+
+This summary encapsulates the key elements of the case, highlighting the legal reasoning and outcome based on the provided context.

@@ -1,0 +1,42 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. It's a Supreme Court judgment from 2024, case number 228 [2024] 9 S.C.R. The case is about a student, Ankul Singhal, who was admitted to a B.Ed course. The issue revolves around discrimination among students admitted in different rounds of counselling, specifically regarding the minimum percentage of marks required for graduation.
+
+The court held that it's improper to discriminate between students in the same homogeneous group admitted for the academic session 2009-10. They compared it to another case, Rakesh Gaur, where similar relief was granted. The reasoning was that if some students admitted in the first round were eligible with less than 50% marks, others in subsequent rounds shouldn't be excluded. The High Court's judgment was set aside, and the appellant was reinstated with consequential benefits.
+
+Now, I need to structure this into the specified format. Let's break it down step by step.
+
+Case Type: The domain is likely Civil because it's a dispute over rights and benefits. The specific category is Right to Equality Cases since it deals with discrimination and equal treatment.
+
+Legal Provisions & Charges: The judgment mentions the Rajasthan Panchayati Raj Act, 1994, and Rules, 1996. It also refers to the NCTE's notification regarding minimum marks. So, these are the relevant provisions.
+
+Parties Involved: The appellant is an individual, and the respondents are government authorities (State of Rajasthan and others). So, it's an individual vs. government.
+
+Judgment & Legal Reasoning: The court allowed the appeal, setting aside the High Court's judgment. The reasoning was based on equality, ensuring that similarly situated students are treated the same, citing the principle "sauce for the goose should be sauce for the gander."
+
+Claims, Settlements & Fines: The appellant was reinstated and granted consequential benefits. No fines were imposed; it's about equal treatment and benefits.
+
+I think that covers all the sections. I should make sure each part is concise and accurately reflects the context.
+</think>
+
+**Case Summary:**
+
+**Case Type:**
+- **General Domain:** Civil
+- **Specific Category:** Right to Equality Cases
+
+**Legal Provisions & Charges:**
+- **Relevant Provisions:** Rajasthan Panchayati Raj Act, 1994; Rajasthan Panchayati Raj Rules, 1996; Notification by NCTE regarding minimum marks.
+
+**Parties Involved:**
+- **Appellant:** Individual (Ankul Singhal)
+- **Respondents:** Government Authorities (State of Rajasthan & Ors.)
+
+**Judgment & Legal Reasoning:**
+- **Court Decision:** Appeal allowed; High Court judgment set aside.
+- **Reasoning:** The court emphasized equality, ensuring non-discrimination among similarly situated students, citing the principle of equal treatment.
+
+**Claims, Settlements & Fines:**
+- **Outcome:** Appellant reinstated with consequential benefits.
+- **Financial Aspects:** No fines imposed; focus on equal treatment and benefits.
+
+This structured summary encapsulates the key elements of the case, highlighting the legal reasoning and outcome based on the provided context.

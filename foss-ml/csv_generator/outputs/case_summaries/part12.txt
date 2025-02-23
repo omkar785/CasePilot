@@ -1,0 +1,40 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context provided. It seems to be about statutes of limitation, specifically under the Limitation Act, 1963. The case discusses when the 'right to sue' accrues, particularly under Article 113. The court held that the right to sue arises when there's an accrual of rights and an unequivocal threat by the defendant to infringe those rights.
+
+Now, I need to structure this into the specified format. Let's break it down step by step.
+
+First, the Case Type. The context is about a civil dispute, specifically a Tort claim because it involves a right to sue and potential invasion of that right. So, the general domain is Civil, and the specific category is Tort Claims (Personal Injury & Negligence).
+
+Next, Legal Provisions & Charges. The relevant statute is the Limitation Act, 1963, specifically Article 113. The charges relate to the statute of limitations and the accrual of the right to sue.
+
+Parties Involved. The context doesn't specify the nature of the parties, but since it's a civil case, it's likely between private entities. So, I'll note that the parties are private entities, but without more details, I can't specify if they're individuals or businesses.
+
+Judgment & Legal Reasoning. The court held that the right to sue under Article 113 accrues when there's an accrual of rights and a threat of infringement. The reasoning was based on the Limitation Act's provisions, emphasizing that the right to sue depends on the cause of action arising and the threat from the defendant.
+
+Claims, Settlements & Fines. The context doesn't mention any financial penalties or settlements, so I'll note that there were no fines or compensations awarded.
+
+Putting it all together, I'll structure the summary accordingly, making sure each section is concise and accurate based on the provided context.
+</think>
+
+**Case Summary:**
+
+**Case Type:**
+- **General Domain:** Civil
+- **Specific Category:** Tort Claims (Personal Injury & Negligence)
+
+**Legal Provisions & Charges:**
+- **Relevant Statute:** Limitation Act, 1963
+- **Specific Article:** Article 113
+- **Charges:** Statute of limitations and accrual of the right to sue
+
+**Parties Involved:**
+- **Nature of Parties:** Private entities (nature unspecified)
+
+**Judgment & Legal Reasoning:**
+- **Court's Decision:** The right to sue under Article 113 accrues when there is an accrual of rights and an unequivocal threat of infringement.
+- **Legal Reasoning:** Based on the Limitation Act's provisions, emphasizing the accrual of the right to sue when a cause of action arises and a threat from the defendant exists.
+
+**Claims, Settlements & Fines:**
+- **Financial Outcomes:** No fines or compensations awarded.
+
+This summary encapsulates the key aspects of the case based on the provided context.

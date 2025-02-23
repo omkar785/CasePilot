@@ -1,0 +1,35 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. It's about a case where Anantdeep Singh is appealing against his termination from service. The High Court had dismissed some allegations against him, particularly regarding an illicit relationship, but upheld other misconduct charges. The Supreme Court is now dealing with his application for reinstatement.
+
+First, I need to determine the case type. The issue revolves around employment termination, so it falls under Labor law. Specifically, it's about Unfair Labor Practices because it deals with termination based on certain allegations.
+
+Next, the legal provisions involved. The context mentions the Punjab Civil Services (General and Common Conditions of Service) Rules, 1994. So that's the main statute applicable here.
+
+For the parties involved, the appellant is Anantdeep Singh, an individual, and the respondents are the High Court of Punjab and Haryana and the State of Punjab, which are government entities.
+
+Looking at the judgment, the High Court dismissed the appellant due to misconduct, but the Supreme Court hasn't made a final decision yet. It's still pending as of the judgment date.
+
+There's no mention of any fines or settlements, so that section remains empty.
+
+Putting it all together, I need to structure this information into the specified format, making sure each section is concise and accurate based on the context provided.
+</think>
+
+**Case Summary**
+
+**Case Type:**  
+Labor - Unfair Labor Practices
+
+**Legal Provisions & Charges:**  
+Punjab Civil Services (General and Common Conditions of Service) Rules, 1994.
+
+**Parties Involved:**  
+- **Appellant:** Anantdeep Singh (Individual)  
+- **Respondents:**  
+  - The High Court of Punjab and Haryana at Chandigarh  
+  - The State of Punjab (Government entities)
+
+**Judgment & Legal Reasoning:**  
+The High Court dismissed the appellant based on findings of misconduct, though the Supreme Court's judgment on his application for reinstatement is pending.
+
+**Claims, Settlements & Fines:**  
+No financial penalties or damages awarded as the case is ongoing.

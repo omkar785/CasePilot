@@ -1,0 +1,41 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. The case involves child custody, specifically the custody of a minor child. The appellants took the child without the father's consent, leading to a writ petition under Article 226 of the Indian Constitution. The High Court of Madhya Pradesh was involved, and the Supreme Court partly allowed the appeal, directing access for the father and grandparents.
+
+First, I'll determine the case type. Since it's about child custody, the general domain is Family Law, and the specific category is Child Custody & Adoption.
+
+Next, the legal provisions. The context mentions Article 226, which relates to the writ of Habeas Corpus. Also, the Guardians and Wards Act, 1890, is relevant here.
+
+For the parties involved, the appellants are individuals, and the respondents include the father and other family members. The case is between private entities.
+
+The judgment was that the appeal was partly allowed. The reasoning included humanitarian considerations and the welfare of the child, emphasizing the discretionary nature of the writ.
+
+There were no fines or compensations mentioned, so that section remains empty.
+
+I need to structure this into the specified format, making sure each section is concise and accurate based on the context provided.
+</think>
+
+**Case Summary**
+
+**Case Type:**
+- **General Domain:** Family Law
+- **Specific Category:** Child Custody & Adoption
+
+**Legal Provisions & Charges:**
+- **Relevant Legal Sections:**
+  - Article 226 of the Indian Constitution (Writ of Habeas Corpus)
+  - Guardians and Wards Act, 1890
+
+**Parties Involved:**
+- **Appellants:** Individuals (2nd and 3rd appellants)
+- **Respondents:** Father (4th respondent) and other family members
+- **Nature of Case:** Between private entities
+
+**Judgment & Legal Reasoning:**
+- **Court Decision:** Appeal partly allowed
+- **Legal Reasoning:** The court emphasized humanitarian considerations and the welfare of the child. It highlighted the discretionary nature of the writ of Habeas Corpus and the importance of the child's best interests. The court directed access for the father and paternal grandparents, allowing modification by the trial court after a stipulated period.
+
+**Claims, Settlements & Fines:**
+- **Compensation/Fines:** None imposed
+- **Financial Penalties:** None mentioned
+
+This summary encapsulates the key aspects of the case, focusing on the legal framework, parties involved, and the court's reasoning and outcome.

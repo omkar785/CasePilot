@@ -1,0 +1,41 @@
+<think>
+Okay, so I need to create a structured legal case summary based on the provided context. Let me start by understanding the context thoroughly.
+
+The case involves a will and a property dispute. The appellant made a will in 2005, transferring property to his four sons. Later, the property was sold. The respondents filed a suit claiming the will was forged and that they were the owners of a share of the property. The trial court held the will invalid, but the appellate court upheld it. However, the High Court ruled against the will, stating that the attesting witness didn't confirm the testator's direction for the thumb impression, violating Section 63(c) of the Indian Succession Act.
+
+Now, I need to structure this into the specified format. Let's break it down step by step.
+
+1. **Case Type**: The general domain is Civil, and the specific category is Property Disputes.
+
+2. **Legal Provisions & Charges**: The relevant sections are Section 63(c) of the Indian Succession Act, 1925, and the Indian Evidence Act, 1872, as mentioned in the context.
+
+3. **Parties Involved**: The parties are individuals. The appellant is the testator, and the respondents are the plaintiffs claiming ownership.
+
+4. **Judgment & Legal Reasoning**: The High Court held the will invalid because the attesting witness didn't confirm that the thumb impression was at the testator's direction, violating Section 63(c). The appellate court's decision was overturned.
+
+5. **Claims, Settlements & Fines**: There's no mention of fines or compensation, so this section can be noted as none.
+
+I should ensure each section is concise and accurately reflects the context. I'll avoid any markdown and keep the language clear and straightforward.
+</think>
+
+**Case Summary**
+
+**Case Type:**  
+- **General Domain:** Civil  
+- **Specific Category:** Property Disputes  
+
+**Legal Provisions & Charges:**  
+- **Sections Involved:** Section 63(c) of the Indian Succession Act, 1925; Indian Evidence Act, 1872  
+
+**Parties Involved:**  
+- **Nature of Parties:** Individuals  
+- **Details:** The appellant is the testator, and the respondents are plaintiffs claiming ownership of a property share.  
+
+**Judgment & Legal Reasoning:**  
+- **Court Decision:** The High Court invalidated the will, ruling it unenforceable.  
+- **Reasoning:** The attesting witness did not confirm that the thumb impression was made at the testator's direction, violating Section 63(c).  
+
+**Claims, Settlements & Fines:**  
+- **Compensation/Fines:** None mentioned.  
+
+This summary encapsulates the key aspects of the case, highlighting the legal reasoning and outcome.

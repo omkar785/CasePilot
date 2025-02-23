@@ -1,0 +1,31 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. It's a Supreme Court case, Civil Appeal No. 2669 of 2013, decided on December 11, 2023. The case revolves around limitation periods in legal proceedings, specifically regarding the determination of mesne profits under the Code of Civil Procedure (C.P.C.).
+
+The case type is Civil, specifically a Property Dispute. The legal provisions involved are the Limitation Act, the Code of Civil Procedure (C.P.C.), particularly Order XX Rule 12 and Section 141. The parties involved are individuals, as the respondents are seeking mesne profits, and the petitioners are opposing it.
+
+The judgment states that when no limitation is prescribed, the court must assess if the delay is reasonable. The court held that the application for mesne profits was not barred by limitation because it was a continuation of the original suit, not a fresh proceeding. The court dismissed the petitioners' contention that the application was barred by limitation.
+
+There are no fines or compensations mentioned, so that section remains empty.
+
+Now, I need to structure this into the specified format. I'll make sure each section is filled accurately based on the context provided. I'll avoid any markdown and keep it in plain text as per the instructions.
+</think>
+
+**Case Type:**  
+- **General Legal Domain:** Civil  
+- **Specific Case Category:** Property Dispute  
+
+**Legal Provisions & Charges:**  
+- **Relevant Legal Sections/Statutes/Codes:**  
+  - Limitation Act  
+  - Code of Civil Procedure (C.P.C.), specifically Order XX Rule 12 and Section 141  
+
+**Parties Involved:**  
+- **Nature of the Parties:** Individual  
+- **Case Context:** The case involves private individuals, with the respondents seeking determination of mesne profits and the petitioners opposing the application on the grounds of limitation.  
+
+**Judgment & Legal Reasoning:**  
+- **Court's Decision:** The court dismissed the contention that the application for determination of mesne profits was barred by limitation.  
+- **Legal Reasoning:** The court held that where no limitation is prescribed, the court must examine the possibility of delay based on the facts and circumstances. The application was not considered a fresh proceeding but a continuation of the original suit, hence not barred by limitation.  
+
+**Claims, Settlements & Fines:**  
+- **Compensation/Settlement Amounts/Fines:** None mentioned in the context.

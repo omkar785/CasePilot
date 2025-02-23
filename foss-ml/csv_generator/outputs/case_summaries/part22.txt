@@ -1,0 +1,47 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is about a person who was declared a proclaimed offender under Section 82 of the Cr.P.C. because they failed to appear in court despite summons. The FIR was registered under Section 174A IPC, which deals with evading legal process. The appellant was released on bail, and the High Court's judgment was quashed. The court found that since the main offence from 2010 was acquitted, there was no need for his presence anymore. The FIR under 174A IPC was closed, and his status as a proclaimed person was quashed.
+
+Now, I need to structure this into the specified format. Let's go step by step.
+
+Case Type: It's a Criminal case, specifically under Financial Crimes (Fraud & Embezzlement) because it involves failure to appear in court, which relates to evading legal process, possibly financial in nature.
+
+Legal Provisions & Charges: The relevant sections are IPC 174A and Cr.P.C. 82. The List of Acts includes Penal Code 1860, Cr.P.C. 1973, and Negotiable Instruments Act 1881.
+
+Parties Involved: The appellant is an individual, and the opposing party is the State (Government).
+
+Judgment & Legal Reasoning: The appeal was allowed. The reasoning was that since the main offence was acquitted, the appellant's presence wasn't needed. Section 174A IPC is a standalone offence, but since the main case was resolved, the FIR was closed.
+
+Claims, Settlements & Fines: There's no mention of fines or compensation, so I'll note that none were imposed.
+
+I think that covers all the sections. I should make sure each part is concise and accurate based on the context provided.
+</think>
+
+**Case Summary**
+
+**Case Type:**  
+- **General Legal Domain:** Criminal  
+- **Specific Case Category:** Financial Crimes (Fraud & Embezzlement)
+
+**Legal Provisions & Charges:**  
+- **Relevant Legal Sections:**  
+  - Indian Penal Code (IPC) Section 174A  
+  - Code of Criminal Procedure (Cr.P.C.) Section 82  
+- **Applicable Statutes:**  
+  - Penal Code, 1860  
+  - Code of Criminal Procedure, 1973  
+  - Negotiable Instruments Act, 1881  
+
+**Parties Involved:**  
+- **Appellant:** Individual  
+- **Respondent:** Government (State)
+
+**Judgment & Legal Reasoning:**  
+- **Court's Decision:** Appeal Allowed  
+- **Legal Reasoning:** The appellant was acquitted of the main offence from 2010, rendering his presence unnecessary. Section 174A IPC, though a standalone offence, was closed as the underlying case was resolved. The appellant's status as a proclaimed person was quashed.
+
+**Claims, Settlements & Fines:**  
+- **Compensation/Fines:** None imposed.
+
+This summary encapsulates the key aspects of the case, highlighting the legal framework, parties involved, and the court's rationale.
