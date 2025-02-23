@@ -183,8 +183,6 @@ export default function LandingPage() {
                   "w-full h-auto max-w-2xl ml-auto",
                   "object-contain",
                   "transition-all duration-700 ease-out",
-                  "shadow-[0_20px_50px_rgba(99,68,25,0.2)]",
-                  "hover:shadow-[0_30px_60px_rgba(99,68,25,0.3)]"
                 )}
               />
             </motion.div>
