@@ -55,7 +55,10 @@ const Header = () => {
             }
           }
         } 
-        
+        // else {
+        //   // If no user is logged in, redirect to signin page
+        //   router.push('/');
+        // }
       } catch (error) {
         console.error('Error:', error);
       } finally {
