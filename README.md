@@ -41,14 +41,15 @@ By combining these features, CasePilot not only facilitates better client-lawyer
 ## ⭐ Features
 
 - **Lawyer-Client Matching:** Connects clients with lawyers based on area of expertise, fees, past experience and user reviews.
-          i)  Clients can post either post their cases on a public forum or browse around our lawyer database and directly request referrals and cases.
-          ii) Advocates can browse around available cases in the forums or accept or reject case request from clients.
+-         i)  Clients can post either post their cases on a public forum or browse around our lawyer database and directly request referrals and cases.
+-         ii) Advocates can browse around available cases in the forums or accept or reject case request from clients.
 - **Precedent Finder:** Uses cosine similarity to find and present legal precedents related to a given case description.
-          Trained on a database of the top cases in each area and year which helps lawyers prepare well rounded arguements based on past precedents.
+-         Trained on a database of the top cases in each area and year which helps lawyers prepare well rounded arguements based on past precedents.
 - **Legal Chatbot:** Provides instant responses to legal queries through an AI-powered chatbot fine-tuned on legal Q&A.
-          Provides quick access to easy legal questions or point towards relevant resources for both Advocates and Clients. 
+-         Provides quick access to easy legal questions or point towards relevant resources for both Advocates and Clients. 
 - **Automated Legal Notice Generation:** Generates legal notices from customizable templates with user inputs.
 - **Lawyer Dashboard:** Displays case details, histories, dates, documents, and client interactions for seamless case management integrated with calendar support.
+-         Provides a clutter free one stop dashboard for a lawyer will need to manage different cases at once
 
 ## 🚀 Future Plans
 
