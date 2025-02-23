@@ -83,9 +83,42 @@ By combining these features, CasePilot not only facilitates better client-lawyer
 
 ## 🚀 Future Plans
 
-- **AI Case Summarization:** Implementing AI-driven case summaries to provide concise overviews of complex cases.
-- **Multi-Language Support:** Enabling the platform to work across multiple languages for broader accessibility.
-- **Section finding form text:** Automating the identification of legal sections relevant to a case description.
+### AI-Powered Enhancements
+
+* **AI Case Summarization:**
+    * Implement AI algorithms to generate concise summaries of complex legal cases, saving time and effort.
+* **Section Finding from Text:**
+    * Automate the identification of relevant legal sections within case descriptions, streamlining legal research.
+* **AI-Driven Case Assignment:**
+    * Introduce an "AI-Suggested Advocate" option, matching clients with lawyers based on case type and complexity.
+    * Implement a system that adjusts AI-based referrals based on an advocate's willingness to handle challenging cases.
+
+### Expanding Accessibility and Reach
+
+* **Multi-Language Support:**
+    * Enable the platform to operate in multiple languages, making legal services accessible to a wider audience.
+* **Free Legal Consultation Forums:**
+    * Create a space for junior lawyers, law students, and senior advocates to provide free answers to basic legal queries, democratizing legal knowledge.
+* **Free & Affordable Legal Aid Integration:**
+    * Dedicated section for pro bono and low-cost lawyers.
+    * Direct links to government and NGO legal aid programs.
+    * Law student and junior advocate assistance under supervision.
+
+### Enhancing Lawyer Profiles and Performance
+
+* **Weighted User Review System:**
+    * Develop a more nuanced review system that rewards advocates for taking on pro bono and high-risk cases.
+* **Performance Analytics for Advocates:**
+    * Provide win/loss context, showcasing success in complex cases (e.g., "Successfully defended 60% of high-risk criminal cases").
+    * Introduce experience tags to highlight expertise in handling difficult cases.
+* **Recognition & Badges for Challenging Cases:**
+    * Award "High-Impact Case" badges for handling complex or high-stakes cases.
+    * Highlight advocates offering pro bono and legal aid services.
+
+### Collaboration and Community
+
+* **Government Legal Aid Collaboration:**
+    * Integrate direct links and information regarding goverment and NGO legal aid programs.
 
 ## ⚙️ Installation
 
