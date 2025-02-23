@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Legal Portal",
+  title: "CasePilot",
   description: "Connect with lawyers and navigate your case with confidence",
 };
 
