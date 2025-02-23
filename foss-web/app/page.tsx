@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
 
 const LandingPage = () => {
@@ -28,7 +28,7 @@ const LandingPage = () => {
 
             <div className="space-y-4 flex flex-col items-center">
               <p className="text-[#634419]/70 text-sm tracking-wider font-medium">
-                join us now as
+                Join us now as
               </p>
               <div className="flex gap-4 justify-center">
                 <Button
@@ -41,7 +41,9 @@ const LandingPage = () => {
                     "w-24 h-8"
                   )}
                 >
+                  <Link href="/signup">
                   Advocate
+                  </Link>
                 </Button>
                 <Button
                   size="sm"
@@ -53,7 +55,9 @@ const LandingPage = () => {
                     "w-24 h-8"
                   )}
                 >
+                  <Link href="/signup">
                   Client
+                  </Link>
                 </Button>
               </div>
             </div>
