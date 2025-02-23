@@ -27,7 +27,11 @@
 
 ## 📝 Introduction
 
-Welcome to **CasePilot**, a comprehensive platform designed to bridge the gap between clients and lawyers while simplifying the legal process. CasePilot empowers users to find affordable legal assistance, helps lawyers manage cases efficiently, and provides intelligent tools like a precedent finder, legal chatbot, and automated legal notice generator. Whether you're a lawyer or someone seeking legal support, CasePilot makes legal navigation easier and more accessible.
+Accessing affordable and specialized legal assistance is a significant challenge for both clients and lawyers. Clients often struggle to find legal professionals who align with their specific needs and budgets. On the other hand, lawyers—particularly those new to the profession—face difficulties in reaching potential clients and showcasing their expertise. The lack of a dedicated, accessible platform creates barriers for both parties, making it harder for clients to receive timely legal help and for lawyers to grow their practice. Additionally, navigating legal systems can be complex, requiring access to past case precedents, legal documents, and accurate legal advice.
+
+CasePilot addresses this gap by providing a comprehensive platform that connects clients with lawyers based on expertise, case history, and fee range—ensuring that those in need of legal help can find the right professionals quickly and affordably. Beyond client-lawyer matching, CasePilot offers powerful tools like a Precedent Finder using cosine similarity to retrieve similar past cases, an AI-powered legal chatbot for instant responses to legal queries, and automated legal notice generation through customizable templates.
+
+By combining these features, CasePilot not only facilitates better client-lawyer connections but also simplifies legal processes, making legal assistance more accessible and efficient for everyone.
 
 ## 🎥 Demo Video
 
