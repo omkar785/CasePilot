@@ -1,6 +1,5 @@
 "use client";
-
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -12,42 +11,12 @@ import { useRouter } from 'next/navigation';
 export default function SignInPage() {
   const supabase = createClientComponentClient();
   const router = useRouter();
-  
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-
-  // Check if user is already logged in and redirect based on user type
-  useEffect(() => {
-    const checkUser = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (session) {
-        // Check if user exists in lawyers table
-        const { data: lawyerData } = await supabase
-          .from('lawyers')
-          .select('*')
-          .eq('auth_id', session.user.id)
-          .single();
-
-        // Check if user exists in clients table
-        const { data: clientData } = await supabase
-          .from('clients')
-          .select('*')
-          .eq('auth_id', session.user.id)
-          .single();
-
-        if (clientData) {
-          router.replace('/clientDash');
-        } else if (lawyerData) {
-          router.replace('/dashboard');
-        }
-      }
-    };
-    checkUser();
-  }, [router, supabase]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -68,7 +37,7 @@ export default function SignInPage() {
       if (authError) throw authError;
       if (!authData.user?.id) throw new Error('No user ID returned from authentication');
 
-      // After successful sign-in, verify user type in respective table
+      // Verify user type in respective table
       const { data: userData, error: userError } = await supabase
         .from(userType === 'lawyer' ? 'lawyers' : 'clients')
         .select('*')
@@ -82,8 +51,7 @@ export default function SignInPage() {
       }
 
       // Route to appropriate dashboard based on user type
-      router.replace(userType === 'client' ? '/clientDash' : '/dashboard');
-      
+      router.push(userType === 'client' ? '/clientDash' : '/dashboard');
     } catch (err: any) {
       setError(err.message);
       setLoading(false);
@@ -101,20 +69,19 @@ export default function SignInPage() {
         <CardContent>
           <Tabs defaultValue="lawyer" className="w-full">
             <TabsList className="grid w-full grid-cols-2 bg-[#CBB296]/10">
-              <TabsTrigger 
+              <TabsTrigger
                 value="lawyer"
                 className="data-[state=active]:bg-[#634419] data-[state=active]:text-white"
               >
                 Lawyer Sign In
               </TabsTrigger>
-              <TabsTrigger 
+              <TabsTrigger
                 value="client"
                 className="data-[state=active]:bg-[#634419] data-[state=active]:text-white"
               >
                 Client Sign In
               </TabsTrigger>
             </TabsList>
-
             {(['lawyer', 'client'] as const).map((userType) => (
               <TabsContent key={userType} value={userType}>
                 <form onSubmit={(e) => {
@@ -140,24 +107,21 @@ export default function SignInPage() {
                       required
                       className="border-[#634419]/20 focus:border-[#634419] focus:ring-[#634419]"
                     />
-
                     {error && (
                       <Alert variant="destructive">
                         <AlertDescription>{error}</AlertDescription>
                       </Alert>
                     )}
-
-                    <Button 
-                      type="submit" 
+                    <Button
+                      type="submit"
                       className="w-full bg-[#634419] hover:bg-[#3F372C]"
                       disabled={loading}
                     >
                       {loading ? 'Signing in...' : `Sign in as ${userType}`}
                     </Button>
-
                     <div className="text-center text-sm">
-                      <a 
-                        href={`/signup`} 
+                      <a
+                        href="/signup"
                         className="text-[#634419] hover:underline"
                       >
                         Don't have an account? Register as a {userType}
