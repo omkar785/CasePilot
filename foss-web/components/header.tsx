@@ -54,10 +54,8 @@ const Header = () => {
               router.push('/clientDash');
             }
           }
-        } else {
-          // If no user is logged in, redirect to signin page
-          router.push('/signin');
-        }
+        } 
+        
       } catch (error) {
         console.error('Error:', error);
       } finally {
