@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
 
 const LandingPage = () => {
@@ -40,7 +41,9 @@ const LandingPage = () => {
                     "w-24 h-8"
                   )}
                 >
+                  <Link href="/signup">
                   Advocate
+                  </Link>
                 </Button>
                 <Button
                   size="sm"
@@ -52,7 +55,9 @@ const LandingPage = () => {
                     "w-24 h-8"
                   )}
                 >
+                  <Link href="/signup">
                   Client
+                  </Link>
                 </Button>
               </div>
             </div>

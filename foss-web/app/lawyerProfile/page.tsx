@@ -1,5 +1,4 @@
-// app/components/LawyerProfile.tsx
-"use client" 
+"use client"
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Badge } from "@/components/ui/badge";
@@ -45,7 +44,35 @@ interface LawyerProfile {
   areasOfPractice: string[];
 }
 
-export default function lawyerProfile() {
+const cardVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { 
+    opacity: 1, 
+    y: 0,
+    transition: { duration: 0.6 }
+  }
+};
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+};
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6 }
+  }
+};
+
+export default function LawyerProfile() {
   const [profile, setProfile] = React.useState<LawyerProfile>({
     name: "Sarah Johnson",
     isVerified: true,
@@ -73,38 +100,36 @@ export default function lawyerProfile() {
   });
 
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-    // Handle file upload logic here
     console.log("File uploaded:", event.target.files?.[0]);
   };
 
   return (
-    <div className="min-h-screen w-full bg-gray-50 p-8">
+    <div className="min-h-screen w-full bg-[#DDD0C8] p-8">
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className=" mx-auto space-y-8"
+        initial="hidden"
+        animate="visible"
+        variants={containerVariants}
+        className="max-w-7xl mx-auto space-y-8"
       >
-        {/* Header Section */}
-        <Card className="w-full overflow-hidden">
-          <CardHeader className="relative h-48 bg-[#DDD0C8]">
+        <Card className="w-full overflow-hidden shadow-xl bg-[#DDD0C8]">
+          <CardHeader className="relative h-56">
             <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.3, type: "spring" }}
-              className="absolute -bottom-16 left-8"
+              initial={{ scale: 0, y: 50 }}
+              animate={{ scale: 1, y: 0 }}
+              transition={{ delay: 0.3, type: "spring", stiffness: 200 }}
+              className="absolute -bottom-20 left-8"
             >
-              <div className="relative w-32 h-32 rounded-full border-4 border-white bg-white overflow-hidden">
+              <div className="relative w-40 h-40 rounded-full border-4 border-[#DDD0C8] bg-[#DDD0C8] overflow-hidden shadow-lg">
                 <img
                   src={profile.photo}
-                  alt="Profile"
+                  alt=""
                   className="w-full h-full object-cover"
                 />
                 <label 
                   htmlFor="photo-upload" 
-                  className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity cursor-pointer"
+                  className="absolute inset-0 bg-[#3F372C] bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-all duration-300 cursor-pointer"
                 >
-                  <Upload className="w-6 h-6 text-white" />
+                  <Upload className="w-6 h-6 text-[#DDD0C8] transform hover:scale-110 transition-transform" />
                 </label>
                 <input 
                   id="photo-upload" 
@@ -117,139 +142,181 @@ export default function lawyerProfile() {
             </motion.div>
           </CardHeader>
 
-          <CardContent className="pt-20 pb-8">
-            <div className="flex items-center gap-2 mb-4">
-              <h1 className="text-3xl font-bold">{profile.name}</h1>
+          <CardContent className="pt-24 pb-8">
+            <motion.div 
+              variants={fadeInUp}
+              className="flex items-center gap-3 mb-6"
+            >
+              <h1 className="text-4xl font-bold text-[#3F372C]">
+                {profile.name}
+              </h1>
               {profile.isVerified && (
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
-                  transition={{ delay: 0.5 }}
+                  transition={{ delay: 0.5, type: "spring" }}
                 >
-                  <CheckCircle2 className="w-6 h-6 text-green-500" />
+                  <CheckCircle2 className="w-7 h-7 text-[#A77532]" />
                 </motion.div>
               )}
-            </div>
-
-            {/* Contact Information */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.7 }}
-              className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            >
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-xl">Contact Information</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 text-gray-500" />
-                    <span>{profile.contact.email}</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Phone className="w-5 h-5 text-gray-500" />
-                    <span>{profile.contact.phone}</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <MapPin className="w-5 h-5 text-gray-500" />
-                    <span>{profile.contact.address}</span>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* License Information */}
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-xl">License Information</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div>
-                    <Label>Bar License Number</Label>
-                    <div className="flex items-center gap-2">
-                      <Input value={profile.barLicense.number} readOnly />
-                      <Badge variant="secondary">
-                        {profile.barLicense.verificationStatus}
-                      </Badge>
-                    </div>
-                  </div>
-                  <div>
-                    <Label>Enrollment Number</Label>
-                    <Input value={profile.enrollmentNumber} readOnly />
-                  </div>
-                  
-                </CardContent>
-              </Card>
             </motion.div>
 
-            {/* Experience Section */}
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.9 }}
-              className="mt-8"
+              variants={containerVariants}
+              className="grid grid-cols-1 md:grid-cols-2 gap-8"
             >
-              <Card>
+              <motion.div variants={cardVariants}>
+                <Card className="hover:shadow-lg transition-shadow duration-300 bg-[#DDD0C8]">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-semibold flex items-center gap-2 text-[#3F372C]">
+                      <Mail className="w-5 h-5 text-[#A77532]" />
+                      Contact Information
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <div className="flex items-center gap-3 hover:bg-[#CBB296] p-2 rounded-lg transition-colors">
+                      <Mail className="w-5 h-5 text-[#634419]" />
+                      <span className="text-[#323232]">{profile.contact.email}</span>
+                    </div>
+                    <div className="flex items-center gap-3 hover:bg-[#CBB296] p-2 rounded-lg transition-colors">
+                      <Phone className="w-5 h-5 text-[#634419]" />
+                      <span className="text-[#323232]">{profile.contact.phone}</span>
+                    </div>
+                    <div className="flex items-center gap-3 hover:bg-[#CBB296] p-2 rounded-lg transition-colors">
+                      <MapPin className="w-5 h-5 text-[#634419]" />
+                      <span className="text-[#323232]">{profile.contact.address}</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+
+              <motion.div variants={cardVariants}>
+                <Card className="hover:shadow-lg transition-shadow duration-300 bg-[#DDD0C8]">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-semibold flex items-center gap-2 text-[#3F372C]">
+                      <Award className="w-5 h-5 text-[#A77532]" />
+                      License Information
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <div>
+                      <Label className="text-[#634419]">Bar License Number</Label>
+                      <div className="flex items-center gap-2 mt-1">
+                        <Input 
+                          value={profile.barLicense.number} 
+                          readOnly 
+                          className="bg-[#CBB296] text-[#323232] border-[#B99364]"
+                        />
+                        <Badge 
+                          variant="secondary"
+                          className="capitalize bg-[#A77532] text-[#DDD0C8]"
+                        >
+                          {profile.barLicense.verificationStatus}
+                        </Badge>
+                      </div>
+                    </div>
+                    <div>
+                      <Label className="text-[#634419]">Enrollment Number</Label>
+                      <Input 
+                        value={profile.enrollmentNumber} 
+                        readOnly 
+                        className="bg-[#CBB296] text-[#323232] border-[#B99364] mt-1"
+                      />
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            </motion.div>
+
+            <motion.div variants={fadeInUp} className="mt-8">
+              <Card className="hover:shadow-lg transition-shadow duration-300 bg-[#DDD0C8]">
                 <CardHeader>
-                  <CardTitle className="text-xl flex items-center gap-2">
-                    <Clock className="w-5 h-5" />
+                  <CardTitle className="text-xl font-semibold flex items-center gap-2 text-[#3F372C]">
+                    <Clock className="w-5 h-5 text-[#A77532]" />
                     Past Experience
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   {profile.experiences.map((exp, index) => (
-                    <div key={index} className="mb-4 p-4 border rounded-lg hover:shadow-md transition-shadow">
-                      <h3 className="font-semibold">{exp.position}</h3>
-                      <p className="text-gray-600">{exp.company} • {exp.duration}</p>
-                      <p className="mt-2">{exp.description}</p>
-                    </div>
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, x: -20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: index * 0.2 }}
+                      className="mb-4 p-4 border border-[#B99364] rounded-lg hover:shadow-md transition-all duration-300 hover:bg-[#CBB296]"
+                    >
+                      <h3 className="font-semibold text-lg text-[#3F372C]">{exp.position}</h3>
+                      <p className="text-[#634419] font-medium">{exp.company} • {exp.duration}</p>
+                      <p className="mt-2 text-[#323232]">{exp.description}</p>
+                    </motion.div>
                   ))}
                 </CardContent>
               </Card>
             </motion.div>
 
-            {/* Specializations & Areas of Practice */}
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.1 }}
+              variants={containerVariants}
               className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8"
             >
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-xl flex items-center gap-2">
-                    <Award className="w-5 h-5" />
-                    Specializations
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {profile.specializations.map((spec, index) => (
-                      <Badge key={index} variant="secondary">
-                        {spec}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+              <motion.div variants={cardVariants}>
+                <Card className="hover:shadow-lg transition-shadow duration-300 bg-[#DDD0C8]">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-semibold flex items-center gap-2 text-[#3F372C]">
+                      <Award className="w-5 h-5 text-[#A77532]" />
+                      Specializations
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {profile.specializations.map((spec, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, scale: 0.8 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                          transition={{ delay: index * 0.1 }}
+                        >
+                          <Badge 
+                            variant="secondary"
+                            className="bg-[#B99364] text-[#DDD0C8] hover:bg-[#A77532] transition-colors cursor-default"
+                          >
+                            {spec}
+                          </Badge>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
 
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-xl flex items-center gap-2">
-                    <BookOpen className="w-5 h-5" />
-                    Areas of Practice
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {profile.areasOfPractice.map((area, index) => (
-                      <Badge key={index} variant="outline">
-                        {area}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+              <motion.div variants={cardVariants}>
+                <Card className="hover:shadow-lg transition-shadow duration-300 bg-[#DDD0C8]">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-semibold flex items-center gap-2 text-[#3F372C]">
+                      <BookOpen className="w-5 h-5 text-[#A77532]" />
+                      Areas of Practice
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {profile.areasOfPractice.map((area, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, scale: 0.8 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                          transition={{ delay: index * 0.1 }}
+                        >
+                          <Badge 
+                            variant="outline"
+                            className="border-[#B99364] text-[#634419] hover:bg-[#CBB296] transition-colors cursor-default"
+                          >
+                            {area}
+                          </Badge>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
             </motion.div>
           </CardContent>
         </Card>

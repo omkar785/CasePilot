@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Slider } from "@/components/ui/slider";
 import { X, Twitter, Instagram, Youtube, Linkedin, Compass, Filter, Calendar, User, Clock, ChevronRight, MapPin, Star , ArrowUpDown, Tags} from "lucide-react";
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 const ExplorePage = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -213,11 +214,11 @@ const ExplorePage = () => {
                           <p className="text-sm text-[#634419]/80">
                             {case_.fullDescription}
                           </p>
-                          <Button 
-                            className="w-full bg-[#634419] text-white hover:bg-[#3F372C]"
-                          >
-                            Read Full Case
-                          </Button>
+                          <Link href="/CasePage">
+  <Button className="w-full bg-[#634419] text-white hover:bg-[#3F372C]">
+    Read Full Case
+  </Button>
+</Link>
                         </div>
                       </HoverCardContent>
                     </HoverCard>

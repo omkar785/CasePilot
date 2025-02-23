@@ -1,5 +1,4 @@
 "use client";
-import { cookies } from 'next/headers'
 import React, { useState, useEffect } from 'react';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
@@ -172,7 +171,7 @@ const RegistrationPage = () => {
   const contactMethods = ['Email', 'Phone', 'Text', 'WhatsApp'];
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12" style={{ backgroundColor: '#ddd0c8' }}>
       <Card className="w-full max-w-2xl mx-4">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
@@ -289,9 +288,13 @@ const RegistrationPage = () => {
                     </Alert>
                   )}
 
-                  <Button type="submit" className="w-full" disabled={loading}>
-                    {loading ? 'Registering...' : 'Register as Lawyer'}
-                  </Button>
+<Button 
+      type="submit"
+      className="w-full bg-[#694E37] text-white hover:bg-[#513F31] text-white"
+      disabled={loading}
+    >
+      {loading ? 'Registering...' : 'Register as Lawyer'}
+    </Button>
                 </div>
               </form>
             </TabsContent>
@@ -376,9 +379,18 @@ const RegistrationPage = () => {
                     </Alert>
                   )}
 
-                  <Button type="submit" className="w-full" disabled={loading}>
-                    {loading ? 'Registering...' : 'Register as Client'}
-                  </Button>
+<Button 
+      type="submit"
+      className="w-full text-white"
+      disabled={loading}
+      style={{
+        backgroundColor: '#694E37',
+      }}
+      onMouseOver={e => e.currentTarget.style.backgroundColor = '#513F31'}
+      onMouseOut={e => e.currentTarget.style.backgroundColor = '#694E37'}
+    >
+      {loading ? 'Registering...' : 'Register as Client'}
+    </Button>
                 </div>
               </form>
             </TabsContent>

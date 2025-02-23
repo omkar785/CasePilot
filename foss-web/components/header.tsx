@@ -1,6 +1,6 @@
 "use client";
 
-import { X, LogOut, Settings, User as LucideUser, } from 'lucide-react';
+import { X, LogOut, Settings, User as LucideUser } from 'lucide-react';
 import { User } from '@supabase/auth-helpers-nextjs';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -32,7 +32,7 @@ const Header = () => {
         if (session?.user) {
           setUser(session.user);
           
-          // Check user type
+          // Check user type and redirect accordingly
           const { data: lawyer } = await supabase
             .from('lawyers')
             .select('*')
@@ -41,6 +41,7 @@ const Header = () => {
           
           if (lawyer) {
             setUserType('lawyer');
+            router.push('/dashboard');
           } else {
             const { data: client } = await supabase
               .from('clients')
@@ -50,8 +51,12 @@ const Header = () => {
             
             if (client) {
               setUserType('client');
+              router.push('/clientDash');
             }
           }
+        } else {
+          // If no user is logged in, redirect to signin page
+          router.push('/signin');
         }
       } catch (error) {
         console.error('Error:', error);
@@ -64,6 +69,10 @@ const Header = () => {
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user || null);
+      // Re-run user type check and redirection when auth state changes
+      if (session?.user) {
+        getUser();
+      }
     });
 
     return () => subscription.unsubscribe();
@@ -76,6 +85,12 @@ const Header = () => {
     } catch (error) {
       console.error('Error signing out:', error);
     }
+  };
+
+  // Helper function to get dashboard link based on user type
+  const getDashboardLink = () => {
+    if (!user) return '/signin';
+    return userType === 'lawyer' ? '/dashboard' : '/clientDash';
   };
 
   return (
@@ -102,7 +117,7 @@ const Header = () => {
 
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-6 text-[#694E37] text-sm">
-            <Link href="/dashboard" className="hover:text-[#694E37]/80">
+            <Link href={getDashboardLink()} className="hover:text-[#694E37]/80">
               Dashboard
             </Link>
             <Link href="/Explore" className="hover:text-[#694E37]/80">

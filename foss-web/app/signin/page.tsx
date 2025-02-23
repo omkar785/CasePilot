@@ -20,16 +20,34 @@ export default function SignInPage() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // Check if user is already logged in
+  // Check if user is already logged in and redirect based on user type
   useEffect(() => {
     const checkUser = async () => {
       const { data: { session } } = await supabase.auth.getSession();
       if (session) {
-        router.replace('/dashboard');
+        // Check if user exists in lawyers table
+        const { data: lawyerData } = await supabase
+          .from('lawyers')
+          .select('*')
+          .eq('auth_id', session.user.id)
+          .single();
+
+        // Check if user exists in clients table
+        const { data: clientData } = await supabase
+          .from('clients')
+          .select('*')
+          .eq('auth_id', session.user.id)
+          .single();
+
+        if (clientData) {
+          router.replace('/clientDash');
+        } else if (lawyerData) {
+          router.replace('/dashboard');
+        }
       }
     };
     checkUser();
-  }, [router, supabase.auth]);
+  }, [router, supabase]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -63,11 +81,8 @@ export default function SignInPage() {
         throw new Error(`Invalid ${userType} credentials. Please make sure you're signing in with the correct account type.`);
       }
 
-      // Store user type in local storage for future reference
-      localStorage.setItem('userType', userType);
-
-      // Use replace instead of push to prevent back navigation
-      router.replace('/dashboard');
+      // Route to appropriate dashboard based on user type
+      router.replace(userType === 'client' ? '/clientDash' : '/dashboard');
       
     } catch (err: any) {
       setError(err.message);
@@ -142,7 +157,7 @@ export default function SignInPage() {
 
                     <div className="text-center text-sm">
                       <a 
-                        href={`/${userType}-registration`} 
+                        href={`/signup`} 
                         className="text-[#634419] hover:underline"
                       >
                         Don't have an account? Register as a {userType}
