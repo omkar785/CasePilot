@@ -40,16 +40,46 @@ By combining these features, CasePilot not only facilitates better client-lawyer
 
 ## ⭐ Features
 
-- **Lawyer-Client Matching:** Connects clients with lawyers based on area of expertise, fees, past experience and user reviews.
--         i)  Clients can post either post their cases on a public forum or browse around our lawyer database and directly request referrals and cases.
--         ii) Advocates can browse around available cases in the forums or accept or reject case request from clients.
-- **Precedent Finder:** Uses cosine similarity to find and present legal precedents related to a given case description.
--         Trained on a database of the top cases in each area and year which helps lawyers prepare well rounded arguements based on past precedents.
-- **Legal Chatbot:** Provides instant responses to legal queries through an AI-powered chatbot fine-tuned on legal Q&A.
--         Provides quick access to easy legal questions or point towards relevant resources for both Advocates and Clients. 
-- **Automated Legal Notice Generation:** Generates legal notices from customizable templates with user inputs.
-- **Lawyer Dashboard:** Displays case details, histories, dates, documents, and client interactions for seamless case management integrated with calendar support.
--         Provides a clutter free one stop dashboard for a lawyer will need to manage different cases at once
+* **Lawyer-Client Matching:**
+    * Connects clients with suitable lawyers based on:
+        * Area of expertise
+        * Fee structures
+        * Past experience
+        * User reviews
+    * **Client Functionality:**
+        * Post cases on a public forum for lawyer responses.
+        * Browse a lawyer database and directly request referrals and case assistance.
+    * **Lawyer Functionality:**
+        * Browse available cases in the public forums.
+        * Accept or reject direct case requests from clients.
+
+* **Precedent Finder:**
+    * Utilizes cosine similarity to identify and present relevant legal precedents based on a given case description.
+    * Trained on a comprehensive database of top cases across various legal areas and years.
+    * Empowers lawyers to build well-rounded arguments informed by past rulings.
+
+* **Legal Chatbot:**
+    * Provides instant responses to legal queries through an AI-powered chatbot.
+    * Fine-tuned on a vast legal Q&A dataset.
+    * Offers quick answers to common legal questions.
+    * Directs users to relevant resources for in-depth information.
+    * Useful for both clients and advocates.
+
+* **Automated Legal Notice Generation:**
+    * Generates professional legal notices from customizable templates.
+    * Simplifies the process with user-friendly input fields.
+
+* **Lawyer Dashboard:**
+    * Provides a centralized hub for case management.
+    * Displays:
+        * Case details
+        * Case histories
+        * Important dates
+        * Relevant documents
+        * Client interactions
+    * Integrates with calendar support for seamless scheduling.
+    * Provides a clutter free workspace for efficient case management.
+
 
 ## 🚀 Future Plans
 
