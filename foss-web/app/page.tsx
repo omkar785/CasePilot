@@ -28,7 +28,7 @@ const LandingPage = () => {
 
             <div className="space-y-4 flex flex-col items-center">
               <p className="text-[#634419]/70 text-sm tracking-wider font-medium">
-                join us now as
+                Join us now as
               </p>
               <div className="flex gap-4 justify-center">
                 <Button
