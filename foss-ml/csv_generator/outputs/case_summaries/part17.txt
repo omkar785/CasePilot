@@ -1,0 +1,40 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. The case is about a criminal appeal under the Negotiable Instruments Act, 1881, specifically sections 138 and 142. The appellant is M/s Naresh Potteries, and the respondent is M/s Aarti Industries and another. The issue revolves around whether the complaint filed by the appellant's manager, who is an attorney holder, meets the requirements under section 142 of the NI Act.
+
+First, I'll identify the case type. Since it's related to the Negotiable Instruments Act and involves a complaint under section 138, which deals with dishonor of cheques, this falls under Financial Crimes, specifically Fraud & Embezzlement. The general domain is Corporate.
+
+Next, the legal provisions involved are sections 138 and 142 of the NI Act, and sections 190 and 200 of the Code of Criminal Procedure, 1973. These sections relate to the filing of complaints, the powers of the court, and the requirements for a valid complaint.
+
+The parties involved are both corporations: M/s Naresh Potteries as the appellant and M/s Aarti Industries as the respondent. The case is between private entities.
+
+The judgment outcome is that the complaint was upheld. The court's reasoning was that the complaint, along with supporting documents, satisfied the requirements of section 142. They referenced a previous case, Vinita S. Rao v. Essen Corporate Services (P) Ltd., which established that specific pleadings and knowledge of the transaction are sufficient. The court also noted that the manner of drafting the complaint can vary, but the essential elements were present here.
+
+There's no mention of fines or settlements in the context, so I'll note that there were none.
+
+Putting it all together, the summary should reflect these points clearly and concisely.
+</think>
+
+**Case Summary**
+
+**Case Type:**
+- **General Domain:** Corporate
+- **Specific Category:** Financial Crimes (Fraud & Embezzlement)
+
+**Legal Provisions & Charges:**
+- **Negotiable Instruments Act, 1881:** Sections 138, 142
+- **Code of Criminal Procedure, 1973:** Sections 190, 200
+
+**Parties Involved:**
+- **Appellant:** M/s Naresh Potteries (Corporation)
+- **Respondent:** M/s Aarti Industries and Another (Corporation)
+- **Nature of Case:** Private entities
+
+**Judgment & Legal Reasoning:**
+- **Outcome:** Complaint upheld
+- **Reasoning:** The complaint, supported by documents, met section 142 requirements. The court referenced Vinita S. Rao v. Essen Corporate Services (P) Ltd., emphasizing that essential elements like authorization and transaction knowledge suffice, despite drafting variations.
+
+**Claims, Settlements & Fines:**
+- **Compensation/Settlement:** None
+- **Fines:** None
+
+This case underscores the sufficiency of specific pleadings and supporting documents in validating complaints under the NI Act.

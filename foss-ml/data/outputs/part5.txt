@@ -1,0 +1,37 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the information provided.
+
+The case is about a tax dispute involving Jupiter Capital Pvt. Ltd. and the Commissioner of Income Tax. The issue revolves around whether the assessee (Jupiter Capital) is entitled to claim a capital loss of Rs.164,48,55,840. The key legal provisions involved are the Income Tax Act, 1961, specifically sections 2(47), 46(2), and 48. The Companies Act, 2013 is also mentioned but I'm not sure how relevant it is here.
+
+Looking at the context, the High Court's judgment from 2023 is being referred to, and the case is currently in the Supreme Court. The main points are about the extinguishment of rights in shares and whether that qualifies as a transfer under the Income Tax Act. The court seems to be considering whether the reduction in shareholding or the face value of shares constitutes a transfer, which would allow the assessee to claim a capital loss.
+
+The case type is Tax, specifically Corporate Tax Litigation. The parties involved are a private company (Jupiter Capital) and a government authority (Commissioner of Income Tax). The judgment is pending, so I need to note that the court is yet to decide.
+
+I should structure the summary with the specified sections: Case Type, Legal Provisions & Charges, Parties Involved, Judgment & Legal Reasoning, and Claims, Settlements & Fines. Since the case is ongoing, there's no fine or settlement yet, but the assessee is claiming a capital loss.
+
+I need to ensure that each section is concise and accurately reflects the information from the context. I should avoid any markdown and keep the language clear and straightforward.
+</think>
+
+**Case Summary:**
+
+**Case Type:**  
+- **General Legal Domain:** Tax  
+- **Specific Case Category:** Corporate Tax Litigation  
+
+**Legal Provisions & Charges:**  
+- **Relevant Statutes:** Income Tax Act, 1961; Companies Act, 2013  
+- **Sections Involved:** Section 2(47), 46(2), and 48 of the Income Tax Act, 1961  
+
+**Parties Involved:**  
+- **Assessee:** Jupiter Capital Pvt. Ltd. (Private Company)  
+- **Petitioner:** Commissioner of Income Tax (Government Authority)  
+
+**Judgment & Legal Reasoning:**  
+- **Court's Decision:** Pending judgment as of the latest update.  
+- **Legal Reasoning:** The court is evaluating whether the extinguishment of rights in shares qualifies as a transfer under Section 2(47) of the Income Tax Act, 1961, which would allow the assessee to claim a capital loss. The focus is on whether the reduction in shareholding or face value constitutes a transfer.  
+
+**Claims, Settlements & Fines:**  
+- **Claim:** The assessee claims a capital loss of Rs.164,48,55,840.  
+- **Settlements & Fines:** No settlement or fine has been imposed as the case is ongoing.  
+
+This structured summary captures the essential elements of the case, highlighting the tax dispute and the legal provisions under consideration.

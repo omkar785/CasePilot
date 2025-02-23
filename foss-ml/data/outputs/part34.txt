@@ -1,0 +1,41 @@
+<think>
+Okay, I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Nitya Nand v. State of U.P. & Anr., decided in 2024. It's a criminal case involving murder charges under the Indian Penal Code (IPC). The accused were part of an unlawful assembly, and the prosecution used Section 149 IPC, which deals with the liability of members of an unlawful assembly for acts done in furtherance of the common object.
+
+First, I'll determine the case type. Since it's a criminal matter involving murder and unlawful assembly, the general domain is Criminal. The specific category would be Homicide/Murder.
+
+Next, the legal provisions involved are Sections 147, 148, 149, and 302 of the IPC. These sections cover rioting, acts of violence in an unlawful assembly, and murder, respectively.
+
+The parties involved are the appellant, Nitya Nand, and the State of Uttar Pradesh. The appellant is an individual, and the state is a government entity.
+
+The judgment found the appellant guilty under Sections 148 and 302/149 IPC. The reasoning was that the appellant, as part of an unlawful assembly, was vicariously liable for the murder, even if he didn't directly commit the fatal act. The court emphasized the importance of Section 149 in holding all members accountable for acts done in furtherance of the common object.
+
+There's no mention of fines or compensation in the context, so I'll note that no financial penalties were imposed.
+
+Putting it all together, the summary should reflect these points clearly and concisely.
+</think>
+
+**Case Type:**
+
+- **General Legal Domain:** Criminal
+- **Specific Case Category:** Homicide/Murder
+
+**Legal Provisions & Charges:**
+
+- **Relevant Legal Sections:**
+  - **Sections 147, 148, 149, and 302 of the Indian Penal Code (IPC):** These sections pertain to rioting, acts of violence in an unlawful assembly, and murder, respectively. Section 149 specifically deals with the liability of members of an unlawful assembly for acts done in furtherance of the common object of the assembly.
+
+**Parties Involved:**
+
+- **Appellant:** Nitya Nand (Individual)
+- **Respondent:** State of Uttar Pradesh (Government)
+
+**Judgment & Legal Reasoning:**
+
+- **Court's Decision:** Guilty under Sections 148 and 302/149 IPC.
+- **Legal Reasoning:** The court held that the appellant, as a member of an unlawful assembly, was vicariously liable for the murder of the deceased, even though he did not directly commit the fatal injury. The court emphasized that Section 149 IPC imposes liability on all members of an unlawful assembly for acts done in furtherance of the common object of the assembly, regardless of whether each member actively participated in the commission of the offence.
+
+**Claims, Settlements & Fines:**
+
+- **No Financial Penalties Mentioned:** The judgment does not specify any fines or compensation awarded in this case. The focus was on the conviction of the appellant under the relevant sections of the IPC.

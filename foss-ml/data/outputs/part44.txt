@@ -1,0 +1,51 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Union of India & Ors. v. Lt. Col. Rahul Arora, decided in 2024. It's a service law matter involving the Army Medical Corps. The respondent, Lt. Col. Rahul Arora, faced three charges: altering a document with intent to defraud, absence without leave, and conduct unbecoming of an officer. 
+
+The trial was conducted by a General Court Martial (GCM), which found two charges proven and dismissed him from service. The Armed Forces Tribunal upheld this decision. However, the High Court allowed his writ petition, citing an incurable defect in the convening order of the Court Martial. Specifically, the High Court found that a junior officer acted as the Judge Advocate without the reasons for this appointment being recorded, which was a violation of established law.
+
+The Supreme Court upheld the High Court's decision, relying on the precedent set in Charanjit Singh Gill v. Union of India, which established that non-recording of reasons for appointing a junior officer as Judge Advocate invalidates the Court Martial proceedings.
+
+Now, I need to structure this into the specified format. Let me break it down section by section.
+
+Case Type: The general domain is Service Law, specifically under Military Law. The specific category is Military Disciplinary Proceedings.
+
+Legal Provisions & Charges: The charges were under Section 39(a) and Section 45 of the Army Act. The issue with the convening order relates to the Army Rules.
+
+Parties Involved: The parties are the Union of India (Government) and Lt. Col. Rahul Arora (Individual). The case is between a public institution (Union of India) and an individual.
+
+Judgment & Legal Reasoning: The High Court and Supreme Court found that the appointment of a junior officer as Judge Advocate without recording reasons was a defect, making the proceedings invalid. They relied on the Charanjit Singh Gill case.
+
+Claims, Settlements & Fines: There were no fines or compensation involved. The judgment was about the validity of the Court Martial proceedings leading to dismissal.
+
+I think that covers all the necessary points. I should make sure each section is concise and accurately reflects the context provided.
+</think>
+
+**Case Summary: Union of India & Ors. v. Lt. Col. Rahul Arora**
+
+**Case Type:**
+- **General Domain:** Service Law
+- **Specific Category:** Military Law, Military Disciplinary Proceedings
+
+**Legal Provisions & Charges:**
+- **Charges:** 
+  1. Altering a document with intent to defraud under Section 39(a) of the Army Act.
+  2. Absence without leave under Section 39(a) of the Army Act.
+  3. Conduct unbecoming of an officer under Section 45 of the Army Act.
+- **Legal Provisions:** Army Act (Sections 39(a) and 45), Army Rules.
+
+**Parties Involved:**
+- **Plaintiff:** Union of India (Government)
+- **Defendant:** Lt. Col. Rahul Arora (Individual)
+- **Nature of Case:** Between a public institution (Union of India) and an individual.
+
+**Judgment & Legal Reasoning:**
+- **Outcome:** The High Court and Supreme Court upheld the respondent's writ petition, declaring the Court Martial proceedings invalid due to an incurable defect.
+- **Reasoning:** The appointment of a junior officer as Judge Advocate without recording reasons violated established legal precedents, as per Charanjit Singh Gill v. Union of India.
+
+**Claims, Settlements & Fines:**
+- **Financial Aspects:** No fines or compensation were awarded.
+- **Judicial Impact:** The judgment focused on the procedural defect in the appointment of the Judge Advocate, leading to the invalidation of the dismissal order.
+
+This summary encapsulates the key aspects of the case, highlighting the procedural irregularity that invalidated the disciplinary proceedings against Lt. Col. Rahul Arora.

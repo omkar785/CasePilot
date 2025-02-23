@@ -1,0 +1,37 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context provided. It seems to be a legal document from the Supreme Court of Canada, specifically the case of The Municipal Corporation of Greater Mumbai & Ors. v. Century Textiles and Industries Limited & Ors. The case is about a lease agreement and the right to conveyance at the end of the lease term. 
+
+First, I'll identify the case type. The context mentions a lease and conveyance, which falls under Real Estate. The specific category would be Property Disputes since it's about rights related to property.
+
+Next, the legal provisions and charges. The context refers to principles of statutory interpretation, so I should note that. It also mentions sections 316 and 330 of the [2025] 1 S.C.R., which are likely relevant statutes or codes.
+
+For the parties involved, the plaintiff is the Municipal Corporation of Greater Mumbai, which is a government entity. The defendant is Century Textiles and Industries Limited, a large corporation.
+
+The judgment and legal reasoning: The court held that the respondent had an indefeasible right to conveyance, meaning their right couldn't be taken away by subsequent actions. The reasoning was based on the necessity to leave premises in good condition and aligning with the lease terms and statutory framework. They also relied on previous cases like Rameshwar and Others vs. Jot Ram and Another.
+
+Claims, settlements, and fines: The respondent was granted the right to conveyance, so there's no mention of fines or compensation beyond that.
+
+I need to structure this into the specified format, making sure each section is concise and accurate based on the context provided.
+</think>
+
+**Case Summary: The Municipal Corporation of Greater Mumbai & Ors. v. Century Textiles and Industries Limited & Ors.**
+
+**Case Type:**
+- **General Legal Domain:** Real Estate
+- **Specific Case Category:** Property Disputes
+
+**Legal Provisions & Charges:**
+- Relevant legal sections include principles of statutory interpretation and sections 316 and 330 of the [2025] 1 S.C.R.
+
+**Parties Involved:**
+- **Plaintiff:** The Municipal Corporation of Greater Mumbai (Government Entity)
+- **Defendant:** Century Textiles and Industries Limited (Large Corporation)
+
+**Judgment & Legal Reasoning:**
+- **Judgment:** The respondent was granted an indefeasible right to conveyance.
+- **Legal Reasoning:** The court emphasized that the right to conveyance could not be divested by subsequent actions, ensuring the premises were left in good condition and aligning with lease terms and statutory framework. Precedents such as Rameshwar and Others vs. Jot Ram and Another were referenced.
+
+**Claims, Settlements & Fines:**
+- The respondent's right to conveyance was upheld without mention of fines or compensation beyond the judgment.
+
+This summary encapsulates the key aspects of the case, highlighting the legal principles and outcomes.

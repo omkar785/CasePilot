@@ -1,0 +1,44 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. The case is Dr. Sharmad v. State of Kerala and Others, and it's a civil appeal in the Supreme Court. The appellant is challenging a judgment from the High Court of Kerala. 
+
+Looking at the context, the case revolves around promotional appointments and eligibility criteria under certain rules. The judgment mentions Rule 10(ab) and G.O. dated 07.04.2008. The court discusses the maxim "expressio unius est exclusio alterius," which means that the inclusion of one thing implies the exclusion of another. This seems to be a key point in their reasoning.
+
+The parties involved are the appellant, the State of Kerala as the respondent, and an intervenor. The appellant is an individual, and the respondents are a government entity. 
+
+The judgment outcome is that the High Court's judgment was set aside, and the Tribunal's decision was restored. The reasoning was that the promotional appointment didn't fall under Rule 10(ab) because of the specific qualifications mentioned in the G.O., which acted as an exception.
+
+Now, I need to structure this into the specified format. The case type is Civil, specifically a Judicial Review case. The legal provisions include the Kerala State and Subordinate Services Rules, 1958, particularly Rule 10(ab) and Rule 10(a)(i), as well as the G.O. from 2008. 
+
+The parties are the appellant (individual), respondents (government), and an intervenor. The judgment was in favor of the appellant, setting aside the High Court's order. The reasoning was based on the maxim and the specific qualifications in the G.O. There were no fines or compensations mentioned, so that section is N/A.
+
+I should make sure each section is concise and accurately reflects the context. I'll avoid any markdown and keep it in plain text as per the instructions.
+</think>
+
+**Case Type:**
+
+- **General Legal Domain:** Civil
+- **Specific Case Category:** Judicial Review
+
+**Legal Provisions & Charges:**
+
+- **Relevant Legal Sections/Statutes/Codes:**
+  - Kerala State and Subordinate Services Rules, 1958, Rule 10(ab) and Rule 10(a)(i)
+  - Government Order (G.O.) dated 07.04.2008
+
+**Parties Involved:**
+
+- **Appellant:** Individual (Dr. Sharmad)
+- **Respondents:** Government (State of Kerala)
+- **Intervenor:** Present (Romy Chacko, Sr. Adv., and others)
+
+**Judgment & Legal Reasoning:**
+
+- **Court's Decision:** The High Court's judgment was set aside, and the decision of the Tribunal was restored.
+- **Legal Reasoning:** The court applied the maxim "expressio unius est exclusio alterius," concluding that the promotional appointment did not fall under Rule 10(ab) due to specific qualifications outlined in the G.O. The distinction in qualifications for Branch-I and Branch-II posts was considered a valid exception.
+
+**Claims, Settlements & Fines:**
+
+- **Compensation/Settlement Amounts:** Not applicable
+- **Fines/Financial Penalties:** Not applicable
+
+This structured summary captures the essence of the case, highlighting the legal reasoning and outcome without delving into unnecessary details.

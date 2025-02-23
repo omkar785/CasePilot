@@ -1,0 +1,42 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Mandakini Diwan and Anr. v. The High Court of Chhattisgarh & Ors., decided in 2024. It's a criminal case, specifically under the category of Fundamental Rights Violations because it involves the right to a fair investigation.
+
+The legal provisions involved are the Code of Criminal Procedure, 1973, and the Constitution of India. The parties involved are individuals (the appellants) and a government entity (the High Court of Chhattisgarh and others).
+
+The judgment allowed the appeal, directing the CBI to investigate. The reasoning was that the appellants had credible allegations of bias and undue influence by a senior judicial officer, necessitating an independent investigation to ensure fairness and uphold their fundamental rights.
+
+There were no fines or compensations mentioned, so that section remains empty.
+
+I need to structure this into the specified format, making sure each section is concise and accurate.
+</think>
+
+**Case Type:**
+
+- **General Legal Domain:** Criminal
+- **Specific Case Category:** Fundamental Rights Violations
+
+**Legal Provisions & Charges:**
+
+- **Relevant Legal Sections/Statutes/Codes:**
+  - Code of Criminal Procedure, 1973
+  - Constitution of India
+
+**Parties Involved:**
+
+- **Nature of the Parties:**
+  - Appellants: Individuals
+  - Respondents: Government (High Court of Chhattisgarh and others)
+
+**Judgment & Legal Reasoning:**
+
+- **Court's Decision:** Appeal Allowed
+- **Legal Reasoning:**
+  - The court allowed the appeal, directing the Central Bureau of Investigation (CBI) to conduct the investigation.
+  - The reasoning was based on the appellants' credible allegations of bias and undue influence exerted by a senior judicial officer, which raised doubts about the fairness of the investigation.
+  - The court emphasized the importance of an independent investigation to ensure justice and uphold the fundamental right to a fair investigation.
+
+**Claims, Settlements & Fines:**
+
+- **Compensation/Settlement Amounts/Fines:** None mentioned in the judgment.

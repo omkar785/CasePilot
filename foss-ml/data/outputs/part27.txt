@@ -1,0 +1,37 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Frank Vitus v. Narcotics Control Bureau and Ors., decided in 2025. It's a criminal appellate jurisdiction case, which means it's related to criminal law. The specific category seems to be around bail conditions for a foreigner, so I think it falls under Deportation & Visa Violations or something similar.
+
+Looking at the legal provisions, the case mentions the Foreigners Act, 1946, and the Registration of Foreigners Rules, 1992. These are the key statutes involved. The appellant is a foreigner, so the nature of the parties is an individual against a government entity, the Narcotics Control Bureau.
+
+The judgment was about whether a Foreign Registration Officer needs to be impleaded in a bail application. The court decided that it's necessary, so the decision is that the bail application must include the FRO. There's no mention of fines or compensation, so that section is empty.
+
+I need to structure this into the specified format, making sure each section is filled accurately. I'll start with the case type, then the specific category, followed by the legal provisions. Then, identify the parties involved, the judgment, and any claims or fines. Since there's no financial aspect mentioned, that part remains empty.
+
+I should ensure that the summary is concise and only includes information from the provided context. I'll avoid adding any external knowledge or assumptions beyond what's given.
+</think>
+
+**Case Summary: Frank Vitus v. Narcotics Control Bureau and Ors.**
+
+**Case Type:**  
+Criminal
+
+**Specific Case Category:**  
+Deportation & Visa Violations
+
+**Legal Provisions & Charges:**  
+- **Foreigners Act, 1946**  
+  - Section 2(a): Defines a foreigner as a person not a citizen of India.  
+- **Registration of Foreigners Rules, 1992**  
+  - Rule 3: Pertains to the appointment of Foreign Registration Officers.
+
+**Parties Involved:**  
+- **Appellant:** Frank Vitus (Individual, Foreigner)  
+- **Respondents:** Narcotics Control Bureau and Others (Government Entity)
+
+**Judgment & Legal Reasoning:**  
+The Supreme Court ruled that a Foreign Registration Officer (FRO) must be impleaded in bail applications filed by foreigners. This decision was based on the necessity to ensure compliance with the Foreigners Act and the Registration of Foreigners Rules, emphasizing the role of FROs in bail proceedings involving foreigners.
+
+**Claims, Settlements & Fines:**  
+No financial penalties, compensation, or fines were imposed in this case. The judgment focused on procedural requirements rather than monetary outcomes.

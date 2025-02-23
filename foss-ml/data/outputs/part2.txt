@@ -1,0 +1,45 @@
+<think>
+Okay, I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is Om Prakash @ Israel @ Raju @ Raju Das v. Union of India and Another, decided on 08 January 2025 by the Supreme Court. The issue is about a plea of juvenility under Section 9(2) of the Juvenile Justice (Care and Protection of Children) Act, 2015. The appellant was charged with culpable homicide amounting to murder in 1994. During the trial, he claimed to be 17 years old at the time of the incident but had previously stated he was 20 in 2001. The trial court and higher courts upheld his conviction and death sentence, rejecting the juvenility plea.
+
+Now, I need to structure this into the specified format.
+
+Case Type: The domain is Criminal, specifically a Juvenile Offense case.
+
+Legal Provisions & Charges: The main statute is the Juvenile Justice Act, 2015, particularly Section 9(2). Other relevant acts include the Constitution of India, the Hague Convention, and the Code of Criminal Procedure, 1973.
+
+Parties Involved: The appellant is an individual, and the respondents are the Union of India and another party, likely a government entity.
+
+Judgment & Legal Reasoning: The court rejected the plea, relying on the appellant's prior statements and the lack of credible evidence supporting his age. Precedents like Ram Deo Chauhan and Vinay Sharma were considered.
+
+Claims, Settlements & Fines: No financial penalties were imposed; the focus was on the juvenility plea.
+
+I should ensure each section is concise and accurately reflects the context provided.
+</think>
+
+**Case Summary: Om Prakash @ Israel @ Raju @ Raju Das v. Union of India and Another**
+
+**Case Type:**
+- **General Legal Domain:** Criminal
+- **Specific Case Category:** Juvenile Offense
+
+**Legal Provisions & Charges:**
+- **Relevant Statutes:**
+  - Juvenile Justice (Care and Protection of Children) Act, 2015 (Section 9(2))
+  - Constitution of India
+  - Hague Convention on Protection of Children and Cooperation in Respect of Intercountry Adoption, 1993
+  - Code of Criminal Procedure, 1973
+
+**Parties Involved:**
+- **Appellant:** Individual (Om Prakash)
+- **Respondents:** Union of India and Another (Government entities)
+
+**Judgment & Legal Reasoning:**
+- **Court's Decision:** The plea of juvenility under Section 9(2) of the 2015 Act was rejected.
+- **Legal Reasoning:** The court emphasized the appellant's prior inconsistent statements regarding his age and the lack of credible evidence supporting his claim of juvenility. Precedents such as Ram Deo Chauhan and Vinay Sharma were referenced to uphold the rejection of the plea.
+
+**Claims, Settlements & Fines:**
+- **Financial Penalties:** None imposed; the case focused on the juvenility plea rather than financial penalties.
+
+This summary encapsulates the key aspects of the case, highlighting the legal framework, parties involved, and the court's reasoning.

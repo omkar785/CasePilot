@@ -1,0 +1,53 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. It's about criminal proceedings against two individuals, M (Mathew) and R (Ramesh). The court restored the proceedings against Mathew but quashed those against Ramesh. 
+
+First, I'll determine the case type. The context mentions criminal proceedings, so the general domain is Criminal. The specific category would be Financial Crimes since it involves unauthorized procurement of railway tickets, which seems like a financial offense.
+
+Next, the legal provisions. The case cites Section 143 of the Act, which I assume is the Indian Penal Code or another relevant statute. The judgment discusses statutory interpretation, so I should include that as well.
+
+For the parties involved, Mathew is an individual accused of unauthorized ticketing, and Ramesh is an authorized agent. The prosecution is likely the government or a regulatory authority.
+
+The judgment outcome is that Mathew's case is restored, and Ramesh's is quashed. The reasoning includes the interpretation of Section 143, the principle that clear statutes should be enforced as written, and the distinction between authorized and unauthorized agents.
+
+There's no mention of fines or settlements, so that section remains empty.
+
+Putting it all together, I'll structure the summary with each section filled appropriately, ensuring clarity and conciseness.
+</think>
+
+**Case Type:**
+
+- **General Legal Domain:** Criminal
+- **Specific Case Category:** Financial Crimes (Fraud & Embezzlement)
+
+**Legal Provisions & Charges:**
+
+- **Relevant Legal Sections/Statutes/Codes:**
+  - Section 143 of the Act (likely the Indian Penal Code or another relevant statute)
+  - Principles of statutory interpretation and judicial discretion in quashing criminal proceedings
+
+**Parties Involved:**
+
+- **Nature of the Parties:**
+  - Accused: Individual (Mathew) and Individual (Ramesh)
+  - Prosecution: Government (Railways)
+
+**Judgment & Legal Reasoning:**
+
+- **Court's Decision:**
+  - Criminal proceedings against Mathew are restored.
+  - Criminal proceedings against Ramesh are quashed.
+
+- **Legal Reasoning/Precedents:**
+  - The court held that Section 143 of the Act prima facie attracts the case against Mathew, as he was carrying on a business of procurement and supply of railway tickets without authorization.
+  - The court emphasized that statutory provisions must be enforced as written if they are clear and unambiguous, even if subsequent developments were not envisioned by the legislature.
+  - The court distinguished between authorized and unauthorized agents, holding that Ramesh, being an authorized agent, could not be prosecuted under Section 143 but could face civil action for breach of contract.
+
+**Claims, Settlements & Fines:**
+
+- **Compensation/Settlement Amounts/Fines:**
+  - No specific fines or compensation amounts were mentioned in the judgment.
+  - The court did not impose any financial penalties or damages.
+
+**Summary:**
+
+The case involved the interpretation of Section 143 of the Act and the exercise of judicial discretion in quashing or restoring criminal proceedings. The court restored the proceedings against Mathew, an unauthorized agent, but quashed the proceedings against Ramesh, an authorized agent. The judgment emphasized the importance of enforcing clear statutory provisions and the distinction between criminal and civil liability in such cases.

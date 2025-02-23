@@ -1,0 +1,53 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the context. It's a legal judgment regarding a consumer dispute. The appellant filed a complaint with the National Consumer Disputes Redressal Commission (NCDRC), but the respondent, Agra Development Authority (ADA), argued that the case should have been filed with the State Commission because the deposit amount was less than Rs. 1 crore. However, the court ruled that the total claim, including compensation for mental agony, harassment, and loss of income, exceeded Rs. 1 crore, giving the NCDRC jurisdiction. The court also addressed the issue of limitation, stating that the appellant's interactions with ADA extended the limitation period.
+
+Now, I need to structure this into the specified format. Let me go through each section one by one.
+
+Case Type: The general domain is Consumer Protection. The specific category is Defective Product Claims, but looking at the context, it's more about the services provided (real estate) and the compensation sought, so maybe Unfair Trade Practices or Defective Product Claims. Alternatively, since it's about the jurisdiction and compensation, perhaps it's a Defective Product Claims case.
+
+Legal Provisions & Charges: The relevant statutes are the Consumer Protection Act, 1986, specifically Section 21(a)(i), and the Limitation Act, 1963, Sections 18 and 19.
+
+Parties Involved: The appellant is an individual (consumer), and the respondent is a government entity (Agra Development Authority).
+
+Judgment & Legal Reasoning: The court affirmed the NCDRC's jurisdiction because the total claim exceeded Rs. 1 crore. It also held that the complaint wasn't barred by limitation due to ongoing interactions between the parties.
+
+Claims, Settlements & Fines: The appellant was awarded Rs. 15,00,000 and the return of a non-judicial stamp worth Rs. 3,99,100.
+
+Wait, I should make sure each section is correctly filled. Let me double-check each part.
+
+Case Type: Consumer Protection, specifically Defective Product Claims or Unfair Trade Practices. Since the issue is about the failure to provide necessary certificates and compensation, maybe Unfair Trade Practices is more appropriate.
+
+Legal Provisions: Sections 21(a)(i) of the Consumer Protection Act, 1986, and Sections 18 and 19 of the Limitation Act, 1963.
+
+Parties: Individual (appellant) vs. Government (respondent).
+
+Judgment: The court upheld the NCDRC's jurisdiction and dismissed the limitation plea. The reasoning was that the total claim exceeded Rs. 1 crore and the limitation period was extended due to part payments and acknowledgments.
+
+Claims: The appellant received compensation and the return of the stamp amount.
+
+I think that's all. Now, I'll structure this into the required format.
+</think>
+
+**Case Summary**
+
+**Case Type:**
+- **General Domain:** Consumer Protection
+- **Specific Category:** Unfair Trade Practices
+
+**Legal Provisions & Charges:**
+- **Statutes:** Consumer Protection Act, 1986; Limitation Act, 1963
+- **Sections:** Section 21(a)(i) (Consumer Protection Act); Sections 18 and 19 (Limitation Act)
+
+**Parties Involved:**
+- **Appellant:** Individual (Consumer)
+- **Respondent:** Government Entity (Agra Development Authority)
+
+**Judgment & Legal Reasoning:**
+- **Decision:** The court upheld the NCDRC's jurisdiction and dismissed the limitation plea.
+- **Reasoning:** The total claim, including compensation, exceeded Rs. 1 crore. The limitation period was extended due to ongoing interactions and part payments.
+
+**Claims, Settlements & Fines:**
+- **Compensation Awarded:** Rs. 15,00,000
+- **Return of Stamp:** Rs. 3,99,100
+
+This structured summary encapsulates the key aspects of the case, highlighting the legal provisions, parties involved, judgment, and financial outcomes.

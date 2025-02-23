@@ -1,0 +1,47 @@
+<think>
+Okay, so I need to provide a structured legal case summary based on the given context. Let me start by understanding the case details.
+
+The case is titled Krishna Devi @ Sabitri Devi (Rani) M/s S.R. Engineering Construction v. Union of India & Ors. It's from the year 2025, and the case number is 1 S.C.R. 83. The case involves an arbitration dispute. The appellant is a firm that completed work and raised a bill in 1993, but the respondents didn't pay. The appellant then sought arbitration, but initial applications were dismissed due to lack of jurisdiction. Finally, an arbitrator was appointed in 2019, and an award was made in favor of the appellant in 2022.
+
+The key legal issues revolve around the Arbitration Act, 1940, specifically Section 17 and Section 14(2). The court discussed the limitation period for filing objections under Article 119(b) of the Arbitration Act, which is 30 days. The court held that the limitation period started running from the date the respondents received notice of the award, which was May 20, 2022. The respondents didn't file objections within the 30-day period, so the appellant filed an application under Section 17 after the limitation period expired.
+
+The court relied on precedents like Nilkantha Sidramappa Ningashetti v. Kashinath Somanna Ningashetti and Deo Narain Choudhury v. Shree Narain Choudhury to support the reasoning that the essential requirement under Section 14(2) is the communication of information about the award, which doesn't necessarily require formal notice. The court dismissed the respondents' plea that they didn't receive a copy of the award, as they didn't raise this during the limitation period.
+
+Now, I need to structure this into the specified format. Let me break it down step by step.
+
+1. **Case Type**: The general domain is Civil, and the specific category is Arbitration Dispute.
+
+2. **Legal Provisions & Charges**: The relevant acts are the Arbitration Act, 1940; Limitation Act, 1963; and Code of Civil Procedure, 1908. The sections involved are Section 17 and Section 14(2) of the Arbitration Act, 1940, and Article 119(b).
+
+3. **Parties Involved**: The appellant is a small business (M/s S.R. Engineering Construction), and the respondents include the Union of India, which is a government entity.
+
+4. **Judgment & Legal Reasoning**: The court dismissed the respondents' objections because they were filed after the 30-day limitation period. The reasoning was based on the communication of the award's notice, not the physical copy, and the precedents supporting this interpretation.
+
+5. **Claims, Settlements & Fines**: The appellant was awarded the balance fees of the arbitrators. The legal provisions under which this was awarded are the Arbitration Act, 1940.
+
+I need to ensure that each section is concise and accurately reflects the case details. I should avoid any markdown and keep the language clear and straightforward.
+</think>
+
+**Structured Legal Case Summary**
+
+**Case Type**:  
+- **General Domain**: Civil  
+- **Specific Category**: Arbitration Dispute  
+
+**Legal Provisions & Charges**:  
+- **Relevant Acts**: Arbitration Act, 1940; Limitation Act, 1963; Code of Civil Procedure, 1908  
+- **Sections/Articles**: Section 17, Section 14(2) of the Arbitration Act, 1940; Article 119(b)  
+
+**Parties Involved**:  
+- **Appellant**: Small Business (M/s S.R. Engineering Construction)  
+- **Respondents**: Government Entity (Union of India & Ors.)  
+
+**Judgment & Legal Reasoning**:  
+- **Court Decision**: The respondents' objections were dismissed as they were filed after the 30-day limitation period.  
+- **Legal Reasoning**: The court held that the limitation period began when the respondents received notice of the award, not the physical copy. Precedents (Nilkantha Sidramappa Ningashetti and Deo Narain Choudhury) supported that communication of the award's notice suffices under Section 14(2).  
+
+**Claims, Settlements & Fines**:  
+- **Award**: The appellant was awarded balance fees of the arbitrators.  
+- **Legal Provision**: Awarded under the Arbitration Act, 1940.  
+
+This summary encapsulates the key aspects of the case, adhering to the specified format and ensuring clarity and conciseness.
