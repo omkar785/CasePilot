@@ -8,6 +8,7 @@ import Link from 'next/link';
 
 const cn = (...classes: string[]) => classes.filter(Boolean).join(' ');
 
+// Animation variants remain the same
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -111,20 +112,19 @@ export default function LandingPage() {
                     whileHover="hover"
                     whileTap={{ scale: 0.95 }}
                   >
-                    <Link href="/signup" className="w-full h-full">
-                      <Button
-                        size="lg"
-                        variant="outline"
-                        className={cn(
-                          "border-2 border-[#634419] text-[#634419] text-sm rounded-md",
-                          "transform transition-all duration-300 ease-out",
-                          "hover:bg-[#634419] hover:text-white hover:shadow-xl",
-                          "w-32 h-12 font-medium tracking-wide"
-                        )}
-                      >
-                        {role}
-                      </Button>
-                    </Link>
+                    <Button
+                      size="lg"
+                      variant="outline"
+                      className={cn(
+                        "border-2 border-[#634419] text-[#634419] text-sm rounded-md",
+                        "transform transition-all duration-300 ease-out",
+                        "hover:bg-[#634419] hover:text-white hover:shadow-xl",
+                        "w-32 h-12 font-medium tracking-wide"
+                      )}
+                      onClick={() => window.location.href = '/signup'}
+                    >
+                      {role}
+                    </Button>
                   </motion.div>
                 ))}
               </div>

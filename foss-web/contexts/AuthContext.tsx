@@ -1,91 +1,66 @@
-"use client"
+'use client';
 
-// contexts/AuthContext.tsx
 import { createContext, useContext, useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { supabase } from '@/lib/supabase';
-import type { User } from '@supabase/supabase-js';
+import { createClientComponentClient, Session } from '@supabase/auth-helpers-nextjs';
+import { useRouter, usePathname } from 'next/navigation';
 
 interface AuthContextType {
-  user: User | null;
-  userType: 'lawyer' | 'client' | null;
+  session: Session | null;
   loading: boolean;
 }
 
 const AuthContext = createContext<AuthContextType>({
-  user: null,
-  userType: null,
+  session: null,
   loading: true,
 });
 
-export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const [user, setUser] = useState<User | null>(null);
-  const [userType, setUserType] = useState<'lawyer' | 'client' | null>(null);
+export function AuthProvider({
+  children,
+  initialSession,
+}: {
+  children: React.ReactNode;
+  initialSession: Session | null;
+}) {
+  const [session, setSession] = useState<Session | null>(initialSession);
   const [loading, setLoading] = useState(true);
+  const supabase = createClientComponentClient();
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
-    // Get initial session
-    const getInitialSession = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      setUser(session?.user ?? null);
-      if (session?.user) {
-        await getUserType(session.user.email);
-      }
-      setLoading(false);
-    };
-
-    getInitialSession();
-
-    // Listen for auth changes
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-      setUser(session?.user ?? null);
-      if (session?.user) {
-        await getUserType(session.user.email);
-      } else {
-        setUserType(null);
-      }
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      setSession(session);
       setLoading(false);
     });
 
     return () => {
       subscription.unsubscribe();
     };
-  }, []);
+  }, [supabase]);
 
-  const getUserType = async (email: string | undefined) => {
-    if (!email) return;
-
-    // Check lawyers table
-    const { data: lawyer } = await supabase
-      .from('lawyers')
-      .select('*')
-      .eq('email', email)
-      .single();
-
-    if (lawyer) {
-      setUserType('lawyer');
-      return;
+  // Only redirect for protected routes, not for public routes
+  useEffect(() => {
+    const protectedRoutes = ['/dashboard', '/clientDash'];
+    const authRoutes = ['/signin', '/signup'];
+    
+    if (!loading) {
+      if (protectedRoutes.includes(pathname) && !session) {
+        router.push('/signin');
+      } else if (authRoutes.includes(pathname) && session) {
+        // Handle redirect based on user type if needed
+        router.push('/dashboard'); // or determine based on user type
+      }
     }
-
-    // Check clients table
-    const { data: client } = await supabase
-      .from('clients')
-      .select('*')
-      .eq('email', email)
-      .single();
-
-    if (client) {
-      setUserType('client');
-    }
-  };
+  }, [session, loading, pathname, router]);
 
   return (
-    <AuthContext.Provider value={{ user, userType, loading }}>
+    <AuthContext.Provider value={{ session, loading }}>
       {children}
     </AuthContext.Provider>
   );
-};
+}
 
 export const useAuth = () => {
   const context = useContext(AuthContext);
